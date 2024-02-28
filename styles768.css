@@ -214,6 +214,11 @@
     color: #ffffff;
     flex: 1;
     font-family: "Roboto Mono", monospace;
+    font-size: 1rem;
+  }
+
+  .footer-info div svg {
+    width: 2rem;
   }
 
   .footer-logo {

@@ -1,7 +1,8 @@
 @media screen and (min-width: 992px) {
   /* ... GALERÍA ... */
   #carouselExampleControls {
-    padding: 12rem;
+    padding: 3rem 8rem;
+    max-width: 100rem;
   }
 
   /* ... SOMOS REFI ... */
@@ -125,9 +126,11 @@
   }
 
   .footer-info {
-    color: #ffffff;
-    flex: 1;
-    font-family: "Roboto Mono", monospace;
+    font-size: 1.1rem;
+  }
+
+  .footer-info div svg {
+    width: 2rem;
   }
 
   .footer-logo {
