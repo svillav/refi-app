@@ -19,7 +19,7 @@ nav {
 }
 
 #navbarNav a {
-  font-family: "Roboto Mono", monospace;
+  font-family: "Montserrat", monospace;
   text-transform: uppercase;
   font-size: 1.2rem;
   color: white;
@@ -27,14 +27,17 @@ nav {
 
 .logo {
   position: relative;
-  right: 2rem;
+}
+
+.logo img {
+  width: 9rem;
 }
 
 .separador {
   height: 20rem; /* Altura deseada para el separador */
-  background-image: url("./assets/escenario-imagen.avif"); /* URL de tu imagen de fondo */
+  background-image: url("./assets/gente-sentada-viendo-futbol-lugar-publico-noche.png"); /* URL de tu imagen de fondo */
   background-size: cover;
-  background-position: center bottom;
+  background-position: center;
   background-attachment: fixed; /* Fija la imagen de fondo en la pantalla */
 }
 
@@ -80,7 +83,7 @@ nav {
 }
 
 .event-card p {
-  font-family: "Roboto Mono", monospace;
+  font-family: "Montserrat", monospace;
 }
 
 .event-card h3,
@@ -148,11 +151,12 @@ nav {
 }
 
 .text img {
-  width: 8rem;
+  width: 5rem;
+  margin: 0.5rem;
 }
 
 .text p {
-  font-family: "Roboto Mono", monospace;
+  font-family: "Montserrat", monospace;
   font-size: 1.1rem;
   padding: 0.5rem;
 }
@@ -198,7 +202,7 @@ nav {
   display: flex;
   justify-content: center;
   flex-direction: column;
-  align-items: start;
+  align-items: center;
   padding: 2rem;
   width: 100%;
 }
@@ -212,7 +216,7 @@ nav {
 }
 
 .contact-details {
-  font-family: "Roboto Mono", monospace;
+  font-family: "Montserrat", monospace;
   background-color: #000000;
   padding: 1rem;
 }
@@ -230,6 +234,14 @@ nav {
 
 .contact-details .item svg {
   width: 2rem;
+}
+
+.contact-details .item span {
+  font-size: 1.2rem;
+}
+
+.contact-details .item span a {
+  color: white;
 }
 
 .contact-details p a {
@@ -262,7 +274,7 @@ nav {
   align-items: center;
   color: #ffffff;
   flex: 1;
-  font-family: "Roboto Mono", monospace;
+  font-family: "Montserrat", monospace;
   font-size: 0.7rem;
 }
 
@@ -277,8 +289,7 @@ nav {
 }
 
 .footer-logo img {
-  max-width: 150px; /* Tamaño máximo del logo */
-  height: auto;
+  width: 8rem;
 }
 
 /* BOTÓN DE VOLVER AL INICIO */
