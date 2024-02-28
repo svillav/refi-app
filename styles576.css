@@ -72,6 +72,15 @@ nav {
   overflow: hidden;
 }
 
+.event-card:hover {
+  text-decoration: none;
+  color: rgb(229, 113, 40);
+}
+
+.event-card p:hover {
+  color: rgb(215, 175, 138);
+}
+
 .event-card img {
   width: 100%;
   height: auto;
