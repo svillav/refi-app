@@ -1,0 +1,310 @@
+nav {
+  background: linear-gradient(0deg, #000000, #000000, #030303);
+}
+
+#burger-icon {
+  border: 2px solid transparent;
+  background: linear-gradient(
+    250deg,
+    #0000ff,
+    #8000ff,
+    #ff00ff,
+    #ff0080,
+    #ff0000
+  );
+}
+
+#navbarNav li {
+  padding: 2rem;
+}
+
+#navbarNav a {
+  font-family: "Montserrat", monospace;
+  text-transform: uppercase;
+  font-size: 1.2rem;
+  color: white;
+}
+
+.logo {
+  position: relative;
+}
+
+.logo img {
+  width: 9rem;
+}
+
+.separador {
+  height: 20rem; /* Altura deseada para el separador */
+  background-image: url("./assets/gente-sentada-viendo-futbol-lugar-publico-noche.png"); /* URL de tu imagen de fondo */
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed; /* Fija la imagen de fondo en la pantalla */
+}
+
+/* ... EVENTOS ... */
+
+.event-section {
+  text-align: center;
+  padding: 40px 0;
+}
+
+.event-section .section-title {
+  font-size: 2rem;
+  margin-bottom: 20px;
+  font-family: "Dela Gothic One", sans-serif;
+  text-transform: uppercase;
+}
+
+.event-cards {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.event-card {
+  width: 300px;
+  margin: 20px;
+  text-decoration: none;
+  background-color: #000000;
+  color: #ffffff;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.event-card:hover {
+  text-decoration: none;
+  color: rgb(229, 113, 40);
+}
+
+.event-card p:hover {
+  color: rgb(215, 175, 138);
+}
+
+.event-card img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.event-card h3 {
+  font-family: "Dela Gothic One", sans-serif;
+}
+
+.event-card p {
+  font-family: "Montserrat", monospace;
+}
+
+.event-card h3,
+.event-card p {
+  padding: 10px;
+  margin: 0;
+}
+
+.event-card:hover {
+  border: 3px solid white;
+  box-shadow: 0 0 10px rgb(0, 0, 0);
+}
+
+/* ... SOMOS REFI ... */
+
+.somos-refi-section {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  text-align: center;
+  padding: 40px 0;
+  background-image: url("./assets/background_somos-refi.png");
+  background-size: cover; /* Ajusta la imagen al ancho de la pantalla */
+  background-position: center; /* Centra la imagen */
+  background-repeat: no-repeat; /* Evita que se repita la imagen */
+  color: #ffffff;
+}
+
+.somos-refi-content {
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: column;
+  align-items: center;
+}
+
+.image {
+  width: 100%;
+}
+
+.image img {
+  width: 80%;
+  height: auto;
+  border-radius: 0.2rem;
+}
+
+.text {
+  position: relative;
+  width: 90%;
+  background-color: #000000;
+  text-align: center;
+  padding: 2rem;
+}
+
+.text h2 {
+  font-size: 1.5em;
+  font-family: "Dela Gothic One", sans-serif;
+  text-transform: uppercase;
+}
+
+.text .title-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.text img {
+  width: 5rem;
+  margin: 0.5rem;
+}
+
+.text p {
+  font-family: "Montserrat", monospace;
+  font-size: 1.1rem;
+  padding: 0.5rem;
+}
+
+/* ... GALERÍA ... */
+.galeria-section {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding: 2rem 0;
+  background-color: #000000;
+  color: #ffffff;
+  background-image: url("./assets/galeria_background.jpg");
+}
+
+.galeria-section h2 {
+  margin: 1rem auto;
+  font-family: "Dela Gothic One", sans-serif;
+  font-size: 2rem;
+  text-transform: uppercase;
+}
+
+#carouselExampleControls {
+  padding: 1.5rem;
+}
+
+/* ... CONTACTO ... */
+
+.contact-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: auto;
+  padding: 40px 0;
+  background-image: url("./assets/background_contacto.png");
+  background-size: cover; /* Ajusta la imagen al ancho de la pantalla */
+  background-position: center; /* Centra la imagen */
+  background-repeat: no-repeat; /* Evita que se repita la imagen */
+  color: white; /* Cambia el color del texto si es necesario */
+}
+
+.contact-info {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  padding: 2rem;
+  width: 100%;
+}
+
+.contact-info .section-title {
+  font-size: 2em;
+  font-family: "Dela Gothic One", sans-serif;
+  margin-bottom: 1rem;
+  background-color: #000000;
+  padding: 1rem;
+}
+
+.contact-details {
+  font-family: "Montserrat", monospace;
+  background-color: #000000;
+  padding: 1rem;
+}
+
+.contact-details .item {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: start;
+}
+
+.contact-details .item div {
+  margin: 0.2rem 1rem;
+}
+
+.contact-details .item svg {
+  width: 2rem;
+}
+
+.contact-details .item span {
+  font-size: 1.2rem;
+}
+
+.contact-details .item span a {
+  color: white;
+}
+
+.contact-details p a {
+  font-size: 1rem;
+  padding: 0;
+}
+
+.map {
+  width: 100%;
+  padding: 2rem;
+}
+
+.map img {
+  width: 100%;
+  border-radius: 8px;
+}
+
+/* ... FOOTER ... */
+
+.site-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #000000;
+  padding: 20px;
+}
+
+.footer-info {
+  display: flex;
+  align-items: center;
+  color: #ffffff;
+  flex: 1;
+  font-family: "Montserrat", monospace;
+  font-size: 0.7rem;
+}
+
+.footer-info div svg {
+  width: 1.5rem;
+  margin: 0.5rem;
+}
+
+.footer-logo {
+  flex: 1;
+  text-align: right;
+}
+
+.footer-logo img {
+  width: 8rem;
+}
+
+/* BOTÓN DE VOLVER AL INICIO */
+#back-to-top {
+  position: fixed;
+  bottom: 0.5rem;
+  right: 0.5rem;
+  width: 2.5rem;
+}

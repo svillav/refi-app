@@ -1,0 +1,145 @@
+@media screen and (min-width: 992px) {
+  /* ... GALERÍA ... */
+  #carouselExampleControls {
+    padding: 3rem 8rem;
+    max-width: 100rem;
+  }
+
+  /* ... SOMOS REFI ... */
+
+  .somos-refi-section {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+    padding: 40px 0;
+    background-image: url("./assets/background_somos-refi.png");
+    background-size: cover; /* Ajusta la imagen al ancho de la pantalla */
+    background-position: center; /* Centra la imagen */
+    background-repeat: no-repeat; /* Evita que se repita la imagen */
+    color: #ffffff;
+  }
+
+  .somos-refi-content {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    align-items: center;
+  }
+
+  .image {
+    width: 50%;
+  }
+
+  .image img {
+    width: 60%;
+    height: auto;
+    border-radius: 0.2rem;
+  }
+
+  .text {
+    position: relative;
+    width: 50%;
+    text-align: center;
+    padding: 2rem;
+  }
+
+  .text h2 {
+    font-size: 1.5em;
+    font-family: "Dela Gothic One", sans-serif;
+    text-transform: uppercase;
+  }
+
+  .text .title-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .text img {
+    width: 8rem;
+  }
+
+  .text p {
+    font-family: "Roboto Mono", monospace;
+    font-size: 1.1rem;
+    padding: 0.5rem;
+  }
+
+  /* ... CONTACTO ... */
+
+  .contact-section {
+    display: flex;
+    flex-direction: row;
+    /* text-align: center; */
+    padding: 40px 0;
+    background-image: url("./assets/background_contacto.png");
+    background-size: cover; /* Ajusta la imagen al ancho de la pantalla */
+    background-position: center; /* Centra la imagen */
+    background-repeat: no-repeat; /* Evita que se repita la imagen */
+    color: white; /* Cambia el color del texto si es necesario */
+  }
+
+  .section-title {
+    font-size: 2em;
+    font-family: "Dela Gothic One", sans-serif;
+    margin-bottom: 1rem;
+  }
+
+  .contact-info {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding: 4rem;
+    width: 50%;
+  }
+
+  .contact-details {
+    font-family: "Montserrat", monospace;
+  }
+
+  .contact-details p a {
+    font-size: 1rem;
+    padding: 0;
+  }
+
+  .map {
+    width: 50%;
+    padding: 4rem;
+  }
+
+  .map img {
+    width: 100%;
+    border-radius: 8px;
+  }
+
+  /* ... FOOTER ... */
+
+  .site-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #000000;
+    padding: 20px;
+  }
+
+  .footer-info {
+    font-size: 1.1rem;
+  }
+
+  .footer-info div svg {
+    width: 2rem;
+  }
+
+  .footer-logo {
+    flex: 1;
+    text-align: right;
+  }
+
+  .footer-logo img {
+    max-width: 150px; /* Tamaño máximo del logo */
+    height: auto;
+  }
+}
