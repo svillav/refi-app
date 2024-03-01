@@ -1,4 +1,27 @@
 @media screen and (min-width: 768px) and (max-width: 991px) {
+  /* NAVBAR */
+  .logo img {
+    width: 7rem;
+  }
+  
+  #navbarNav a {
+    margin: 0;
+    font-size: 1rem;
+  }
+
+  #navbarNav a:hover {
+    font-family: "Dela Gothic One", sans-serif;
+    color: white;
+  }
+
+  #navbarNav li:hover {
+    font-family: "Dela Gothic One", sans-serif;
+    color: black;
+    background-color: rgb(243, 243, 243);  
+  }
+  
+  
+
   /* ... EVENTOS ... */
 
   .event-section {
@@ -20,13 +43,12 @@
   }
 
   .event-card {
-    width: 300px;
+    width: 250px;
     margin: 20px;
     text-decoration: none;
     background-color: #000000;
     color: #ffffff;
     border: 1px solid #ccc;
-    border-radius: 8px;
     overflow: hidden;
   }
 
@@ -38,32 +60,17 @@
 
   .event-card h3 {
     font-family: "Dela Gothic One", sans-serif;
+    font-size: 1.4rem;
   }
 
   .event-card p {
-    font-family: "Roboto Mono", monospace;
+    font-family: "Montserrat", sans-serif;
   }
 
   .event-card h3,
   .event-card p {
     padding: 10px;
     margin: 0;
-  }
-
-  .event-card:hover {
-    border: 3px solid white;
-    box-shadow: 0 0 10px rgb(0, 0, 0);
-  }
-
-  /* ... MAS Y MENOS ... */
-
-  .hidden-events {
-    display: none; /* Oculta los eventos adicionales */
-  }
-
-  .buttons {
-    text-align: center;
-    margin-top: 20px;
   }
 
   /* ... SOMOS REFI ... */
@@ -89,7 +96,7 @@
   }
 
   .image {
-    width: 100%;
+    width: 70%;
   }
 
   .image img {
@@ -99,7 +106,7 @@
     margin: 1rem;
   }
 
-  .text {
+  .text-container {
     position: relative;
     width: 80%;
     background-color: #000000;
@@ -107,30 +114,31 @@
     padding: 2rem;
   }
 
-  .text h2 {
+  .text-container h2 {
     font-size: 1.5em;
     font-family: "Dela Gothic One", sans-serif;
     text-transform: uppercase;
   }
 
-  .text .title-container {
+  .text-container .title-container {
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: center;
   }
 
-  .text img {
+  .text-container img {
     width: 8rem;
   }
 
-  .text p {
-    font-family: "Roboto Mono", monospace;
+  .text-container p {
+    font-family: "Montserrat", sans-serif;
     font-size: 1.1rem;
     padding: 0.5rem;
   }
 
   /* ... GALERÍA ... */
+  
   .galeria-section {
     display: flex;
     justify-content: center;
@@ -138,7 +146,9 @@
     padding: 2rem 0;
     background-color: #000000;
     color: #ffffff;
-    background-image: url("./assets/galeria_background.jpg");
+    background-image: url("./assets/background_nuevo.png");
+    background-size: cover;
+    background-position: bottom;
   }
 
   .galeria-section h2 {
@@ -149,7 +159,9 @@
   }
 
   #carouselExampleControls {
-    padding: 5rem;
+    padding: 0 5rem;
+    width: 80%;
+    margin: 0 auto 2rem;
   }
 
   /* ... CONTACTO ... */
@@ -158,7 +170,7 @@
     display: flex;
     flex-direction: row;
     /* text-align: center; */
-    padding: 40px 0;
+    padding: 0;
     background-image: url("./assets/background_contacto.png");
     background-size: cover; /* Ajusta la imagen al ancho de la pantalla */
     background-position: center; /* Centra la imagen */
@@ -182,7 +194,8 @@
   }
 
   .contact-details {
-    font-family: "Roboto Mono", monospace;
+    font-family: "Montserrat", sans-serif;
+    padding: 1rem 2rem 1rem 0;
   }
 
   .contact-details p a {
@@ -193,6 +206,7 @@
   .map {
     width: 50%;
     padding: 4rem;
+    margin: auto;
   }
 
   .map img {
@@ -213,12 +227,12 @@
   .footer-info {
     color: #ffffff;
     flex: 1;
-    font-family: "Roboto Mono", monospace;
+    font-family: "Montserrat", sans-serif;
     font-size: 1rem;
   }
 
-  .footer-info div svg {
-    width: 2rem;
+  .footer-info div {
+    width: 25px;
   }
 
   .footer-logo {
@@ -229,5 +243,6 @@
   .footer-logo img {
     max-width: 150px; /* Tamaño máximo del logo */
     height: auto;
+    width: 6rem;
   }
 }

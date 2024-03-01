@@ -1,8 +1,55 @@
 @media screen and (min-width: 992px) {
+  /* NAVBAR */
+  .logo img {
+    width: 7.5rem;
+  }
+
+  #navbarNav li {
+    margin: 0.5rem;
+  }
+  
+  #navbarNav a {
+    padding: 1rem;
+    margin: 0;
+    font-size: 1.1rem;
+  }
+
+  #navbarNav a:hover {
+    font-family: "Dela Gothic One", sans-serif;
+    color: white;
+  }
+
+  #navbarNav li:hover {
+    font-family: "Dela Gothic One", sans-serif;
+    color: black;
+    background-color: rgb(243, 243, 243);  
+  }
+  
+  
+
+  /* EVENTOS */
+
+  .event-card {
+    width: 300px;
+    margin: 2rem;
+  }
+
+  .event-card .collapsing, 
+  .event-card .collapse.show {
+    background: black;
+    width: 298px;
+    z-index: 1;
+  }
+
   /* ... GALERÍA ... */
   #carouselExampleControls {
     padding: 3rem 8rem;
     max-width: 100rem;
+  }
+
+  #carouselExampleControls .carousel-inner {
+    width: 50%;
+    margin: auto;
   }
 
   /* ... SOMOS REFI ... */
@@ -37,32 +84,32 @@
     border-radius: 0.2rem;
   }
 
-  .text {
+  .text-container {
     position: relative;
     width: 50%;
     text-align: center;
     padding: 2rem;
   }
 
-  .text h2 {
+  .text-container h2 {
     font-size: 1.5em;
     font-family: "Dela Gothic One", sans-serif;
     text-transform: uppercase;
   }
 
-  .text .title-container {
+  .text-container .title-container {
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: center;
   }
 
-  .text img {
+  .text-container img {
     width: 8rem;
   }
 
-  .text p {
-    font-family: "Roboto Mono", monospace;
+  .text-container p {
+    font-family: "Montserrat", sans-serif;
     font-size: 1.1rem;
     padding: 0.5rem;
   }
@@ -81,27 +128,33 @@
     color: white; /* Cambia el color del texto si es necesario */
   }
 
-  .section-title {
-    font-size: 2em;
+  /* .section-title {
+    font-size: 3rem;
     font-family: "Dela Gothic One", sans-serif;
     margin-bottom: 1rem;
-  }
+  } */
 
   .contact-info {
     display: flex;
     justify-content: center;
     flex-direction: column;
     align-items: center;
-    padding: 4rem;
+    /* padding: 4rem; */
     width: 50%;
   }
 
-  .contact-details {
-    font-family: "Montserrat", monospace;
+  .contact-info .section-title {
+    font-size: 2rem;
+    font-family: "Dela Gothic One", sans-serif;
+    margin-bottom: 1rem;
   }
 
-  .contact-details p a {
-    font-size: 1rem;
+  .contact-details {
+    font-family: "Montserrat", sans-serif;
+  }
+
+  .contact-details .item span {
+    font-size: 1.2rem;
     padding: 0;
   }
 
@@ -113,6 +166,7 @@
   .map img {
     width: 100%;
     border-radius: 8px;
+    max-width: 30rem;
   }
 
   /* ... FOOTER ... */
@@ -141,5 +195,6 @@
   .footer-logo img {
     max-width: 150px; /* Tamaño máximo del logo */
     height: auto;
+    width: 7rem;
   }
 }
