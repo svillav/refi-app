@@ -1,0 +1,52 @@
+header {
+  background-color: #030304; // Color de fondo del encabezado
+  padding: 5px 0; // Ajusta el espaciado del encabezado según sea necesario
+}
+
+.container {
+  display: flex; // Utiliza flexbox para alinear elementos horizontalmente
+  justify-content: space-between; // Distribuye los elementos horizontalmente
+  align-items: center; // Centra verticalmente los elementos
+  width: 100%;
+  margin: 0;
+}
+
+.logo {
+  width: 10%; // Establece el ancho de la imagen del logo
+  height: 10%;
+  margin-left: 100px;
+  height: auto; // Mantiene la relación de aspecto
+}
+
+.navbar ul {
+  list-style-type: none; // Elimina los puntos de la lista
+  margin: 50px; // Elimina el margen de la lista
+  margin-right: 10rem;
+  padding: 0; // Elimina el relleno de la lista
+}
+
+.navbar ul li {
+  display: inline; // Muestra los elementos de la lista en línea
+}
+
+.navbar ul li:not(:last-child) {
+  margin-right: 60px; // Ajusta el espacio entre los elementos de la lista
+  
+}
+
+.navbar a {
+  text-decoration: none; // Elimina la decoración de texto de los enlaces
+  color: white; // Establece el color del texto de los enlaces
+  font-size: 18px;
+  font-family: "Dela Gothic One", sans-serif;
+  font: bold;
+}
+
+.navbar a:hover {
+  font-family: "Dela Gothic One", sans-serif;
+  font: bold;
+  color: black;
+  background-color: rgb(243, 243, 243);
+  padding: 15px;
+  
+}
