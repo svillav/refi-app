@@ -121,6 +121,12 @@ nav {
   text-transform: uppercase;
 }
 
+.event-section h4 {
+  font-family: "Montserrat", sans-serif;
+  color: black;
+  font-size: 1rem;
+}
+
 .event-cards {
   display: flex;
   justify-content: space-around;
@@ -128,6 +134,10 @@ nav {
 }
 
 .event-card {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   width: 250px;
   margin: 10px;
   text-decoration: none;
@@ -212,10 +222,11 @@ nav {
 
 .event-card .collapsing, 
 .event-card .collapse.show {
+  top: 0;
   background: rgb(0, 0, 0);
+  opacity: 0.9;
   width: 248px;
   z-index: 1;
-  /* box-shadow: 0 10px 12px rgb(0, 0, 0); */
 }
 
 /* ... SOMOS REFI ... */
