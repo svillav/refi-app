@@ -22,7 +22,7 @@
 
   /* ... PERIODICO ... */
 
-  /* .periodico {
+  .periodico {
     background-color: black;
     display: flex;
     flex-wrap: wrap;
@@ -71,7 +71,7 @@
 
   .periodico p:hover {
     font-size: 1.2rem;
-  } */
+  }
   
   
 
