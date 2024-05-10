@@ -236,6 +236,13 @@ nav {
   padding: 0.5rem;
 }
 
+.text-container span {
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.2rem;
+  padding: 0.5rem;
+  font-weight: 700;
+}
+
 /* ... GALERÍA ... */
 .galeria-section {
   display: flex;
