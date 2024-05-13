@@ -125,6 +125,7 @@ nav {
   font-family: "Montserrat", sans-serif;
   color: black;
   font-size: 1rem;
+  font-weight: 700;
 }
 
 .event-cards {
@@ -222,9 +223,9 @@ nav {
 
 .event-card .collapsing, 
 .event-card .collapse.show {
-  top: 0;
+  bottom: 0;
   background: rgb(0, 0, 0);
-  opacity: 0.9;
+  /* opacity: 0.9; */
   width: 248px;
   z-index: 1;
 }
