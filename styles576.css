@@ -142,9 +142,9 @@ nav {
   width: 250px;
   margin: 10px;
   text-decoration: none;
-  background-color: #000000;
+  /* background-color: #000000; */
   color: #ffffff;
-  border: 1px solid #ccc;
+  /* border: 1px solid #ccc; */
   overflow: hidden;
   cursor: pointer;
 }
@@ -165,6 +165,7 @@ nav {
 }
 
 .event-card h3 {
+  background-color: #000000;
   font-family: "Dela Gothic One", sans-serif;
   font-size: 1.2rem;
 }
@@ -212,20 +213,20 @@ nav {
   margin: 0;
 }
 
-.event-card:hover {
-  box-shadow: 0 0 50px rgb(100, 100, 100);
+.event-card h3:hover {
+  box-shadow: 0 0 23px rgb(39 39 39);
 }
 
 .event-card .collapsing, 
 .event-card .collapse {
+  border: 2px solid rgb(66 66 66);
+  border-radius: 4px;
   position: absolute;
 }
 
 .event-card .collapsing, 
 .event-card .collapse.show {
-  bottom: 0;
   background: rgb(0, 0, 0);
-  /* opacity: 0.9; */
   width: 248px;
   z-index: 1;
 }
