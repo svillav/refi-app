@@ -1,0 +1,24 @@
+.event-section {
+  text-align: center;
+  padding: 40px 0;
+
+  .section-title {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    font-family: "Dela Gothic One", sans-serif;
+    text-transform: uppercase;
+  }
+
+  h4 {
+    font-family: "Montserrat", sans-serif;
+    color: black;
+    font-size: 1rem;
+    font-weight: 700;
+  }
+
+  .event-cards {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+}

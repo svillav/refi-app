@@ -2,6 +2,7 @@ import React from 'react';
 import Header from './components/Header/Header';
 import Separator from './components/Separator/Separator';
 import Periodico from './components/Periodico/Periodico';
+import EventsContainer from './components/EventsContainer/EventsContainer';
 
 function App() {
   return (
@@ -9,6 +10,7 @@ function App() {
       <Header />
       <Separator />
       <Periodico />
+      <EventsContainer />
     </React.Fragment>
   );
 }
