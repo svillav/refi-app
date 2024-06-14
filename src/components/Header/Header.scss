@@ -1,0 +1,54 @@
+nav {
+    background: linear-gradient(0deg, #000000, #000000, #030303);
+}
+
+#burger-icon {
+    border: 2px solid transparent;
+}
+
+#navbarNav li {
+    padding: 1rem;
+    text-align: center;
+
+    &:hover {
+        font-family: "Dela Gothic One", sans-serif;
+        color: black;
+        background-color: rgb(243, 243, 243);
+    }
+}
+
+#navbarNav a {
+    font-family: "Montserrat", sans-serif;
+    text-transform: uppercase;
+    font-size: 0.8rem;
+    color: white;
+    text-decoration: none;
+
+    &:hover {
+        font-family: "Dela Gothic One", sans-serif;
+        color: black;
+    }
+}
+
+.logo {
+    position: relative;
+
+    img {
+        width: 6rem;
+    }
+}
+
+.separador {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 20rem; /* Altura deseada para el separador */
+    background-image: url("../assets/gente-sentada-viendo-futbol-lugar-publico-noche.png"); /* URL de tu imagen de fondo */
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed; /* Fija la imagen de fondo en la pantalla */
+
+    img {
+        width: 10rem;
+    }
+}
