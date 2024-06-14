@@ -2,6 +2,8 @@ import React, { useState } from 'react';
 import './EventsContainer.scss';
 import Event from '../Event/Event';
 
+const images = require.context('../assets/eventos/', true);
+
 const eventsArray = [
   {
     "imagen_home": "/media/imagenes_eventos/home/2024/03/foto.jpeg",
@@ -143,7 +145,6 @@ const eventsArray = [
 const EventsContainer = () => {
   const [open, setOpen] = useState(false);
 
-  console.log("event slug", eventsArray);
   return (
     <section id="eventos" className="event-section">
       <h2 className="section-title">Eventos</h2>
@@ -153,7 +154,7 @@ const EventsContainer = () => {
           eventsArray.map((event, index) => (
             <Event
               key={index}
-              imageUrl={`../assets/eventos/BORDER.jpeg`}
+              imageUrl={getImageUrl(event.slug)}
               title={event.nombre}
               date={event.desde_fecha}
               time={event.desde_fecha}
@@ -161,12 +162,22 @@ const EventsContainer = () => {
               price={event.entradas_online_desde}
               ticketUrl={event.slug}
               ticketMessage="CONSEGUIR ENTRADAS"
+              id={event.slug}
             />
           ))
         }
       </div>
     </section>
   );
+};
+
+const getImageUrl = (slug) => {
+  try {
+    return images(`./${slug}.jpeg`);
+  } catch (error) {
+    console.error(`Error al cargar la imagen para el slug ${slug}:`, error);
+    return '';
+  }
 };
 
 export default EventsContainer;
