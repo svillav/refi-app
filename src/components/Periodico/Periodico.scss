@@ -1,0 +1,54 @@
+.periodico {
+  background-color: black;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem 0;
+
+  div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0 1.5rem;
+  }
+
+  span {
+    font-family: "Dela Gothic One", sans-serif;
+    color: white;
+    font-size: 1.1rem;
+  }
+
+  img {
+    width: 70vw;
+    max-width: 20rem;
+    border: 3px solid white;
+    margin: 1rem;
+  }
+
+  a {
+    text-align: center;
+    text-decoration: none;
+
+    &:hover {
+      text-decoration: none;
+    }
+  }
+
+  svg {
+    width: 4rem;
+  }
+
+  p {
+    color: white;
+    font-family: "Montserrat", sans-serif;
+    font-size: 1rem;
+    max-width: 20rem;
+    text-align: center;
+
+    &:hover {
+      font-size: 1.2rem;
+    }
+  }
+}
