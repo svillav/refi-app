@@ -1,22 +1,26 @@
+// Header.jsx
 import React from 'react';
-import { Navbar, Nav } from 'react-bootstrap';
-import 'bootstrap/dist/css/bootstrap.min.css';
 import logo from '../assets/logoreficomunidad.png'; // Asegúrate de tener la imagen en la carpeta adecuada
-import './Header.scss';
+import './Header.scss'; // Asegúrate de importar tus estilos SCSS si los tienes
 
 const Header = () => {
   return (
     <header>
-      <Navbar expand="lg">
+      <nav className="navbar navbar-expand-lg">
         <div className="container">
-          <Navbar.Brand href="#">
+          <a className="navbar-brand" href="#">
             <div className="logo">
               <img src={logo} alt="Logo" />
             </div>
-          </Navbar.Brand>
-          <Navbar.Toggle
+          </a>
+          <button
             id="burger-icon"
+            className="navbar-toggler"
+            type="button"
+            data-toggle="collapse"
+            data-target="#navbarNav"
             aria-controls="navbarNav"
+            aria-expanded="false"
             aria-label="Toggle navigation"
           >
             <span className="navbar-toggler-icon">
@@ -43,25 +47,25 @@ const Header = () => {
                 </g>
               </svg>
             </span>
-          </Navbar.Toggle>
-          <Navbar.Collapse id="navbarNav">
-            <Nav className="ml-auto">
-              <Nav.Link className="eventos" href="#eventos">
-                Eventos
-              </Nav.Link>
-              <Nav.Link className="somos-refi" href="#somos-refi">
-                Somos refi
-              </Nav.Link>
-              <Nav.Link className="galeria" href="#galeria">
-                Galería
-              </Nav.Link>
-              <Nav.Link className="contacto" href="#contacto">
-                Contacto
-              </Nav.Link>
-            </Nav>
-          </Navbar.Collapse>
+          </button>
+          <div className="collapse navbar-collapse" id="navbarNav">
+            <ul className="navbar-nav ml-auto">
+              <li className="nav-item active">
+                <a className="nav-link eventos" href="#eventos">Eventos</a>
+              </li>
+              <li className="nav-item">
+                <a className="nav-link somos-refi" href="#somos-refi">Somos refi</a>
+              </li>
+              <li className="nav-item">
+                <a className="nav-link galeria" href="#galeria">Galería</a>
+              </li>
+              <li className="nav-item">
+                <a className="nav-link contacto" href="#contacto">Contacto</a>
+              </li>
+            </ul>
+          </div>
         </div>
-      </Navbar>
+      </nav>
     </header>
   );
 };
