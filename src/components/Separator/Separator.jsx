@@ -1,15 +1,13 @@
-// Header.jsx
 import React, { useState } from 'react';
-import { Navbar, Nav, Collapse } from 'react-bootstrap'; // Importa Collapse de react-bootstrap
-import logo from '../assets/logoreficomunidad.png'; // Asegúrate de tener la imagen en la carpeta adecuada
-import './Separator.scss'; // Asegúrate de importar tus estilos SCSS si los tienes
+import './Separator.scss';
+import refiImage from '../assets/refi blanco-01.png';
 
 const Separator = () => {
-  const [open, setOpen] = useState(false); // Estado para controlar el colapso del menú
+  const [open, setOpen] = useState(false);
 
   return (
-    <section class="separador">
-      <img src="./assets/refi blanco-01.png" alt="" srcset="" />
+    <section className="separador">
+      <img src={refiImage} />
     </section>
   );
 };

@@ -1,17 +1,14 @@
 .separador {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 20rem;
-    /* Altura deseada para el separador */
-    background-image: url("../assets/gente-sentada-viendo-futbol-lugar-publico-noche.png");
-    /* URL de tu imagen de fondo */
-    background-size: cover;
-    background-position: center;
-    background-attachment: fixed;
-    /* Fija la imagen de fondo en la pantalla */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 20rem;
+  background-image: url("../assets/gente-sentada-viendo-futbol-lugar-publico-noche.png");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
 
-    img {
-        width: 10rem;
-    }
+  img {
+    width: 10rem;
+  }
 }
