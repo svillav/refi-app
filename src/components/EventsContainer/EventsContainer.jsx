@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React from 'react';
 import './EventsContainer.scss';
 import Event from '../Event/Event';
 import eventosData from '../../eventos.json';
@@ -20,7 +20,6 @@ const EventsContainer = () => {
               imageUrl={getImageUrl(event.slug)}
               title={event.nombre}
               date={event.desde_fecha}
-              time={event.desde_fecha}
               location={event.lugar}
               price={event.entradas_online_desde}
               ticketUrl={event.slug}
