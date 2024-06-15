@@ -6,17 +6,17 @@ import refiLogoImg from '../assets/refi blanco-01.png'
 const SomosRefi = () => {
 
   return (
-    <section id="somos-refi" class="somos-refi-section">
-      <div class="somos-refi-content">
-        <div class="image">
+    <section id="somos-refi" className="somos-refi-section">
+      <div className="somos-refi-content">
+        <div className="image">
           <img src={somosRefiImg} alt="Imagen Somos Refi" />
         </div>
-        <div class="text-container">
-          <div class="title-container">
+        <div className="text-container">
+          <div className="title-container">
             <h2>SOMOS</h2>
             <img src={refiLogoImg} />
           </div>
-          <div class="text">
+          <div className="text">
             <p>
               La escuela, “la técnica 10”, la de calle Velez Sarfield 641, es hoy una refinería de
               contenidos, para el desarrollo y la innovación cultural.

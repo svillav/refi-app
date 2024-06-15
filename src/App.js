@@ -4,6 +4,7 @@ import Separator from './components/Separator/Separator';
 import Periodico from './components/Periodico/Periodico';
 import EventsContainer from './components/EventsContainer/EventsContainer';
 import SomosRefi from './components/SomosRefi/SomosRefi';
+import Contact from './components/Contact/Contact'
 
 function App() {
   return (
@@ -13,6 +14,9 @@ function App() {
       <Periodico />
       <EventsContainer />
       <SomosRefi />
+      <Contact />
+      <Separator />
+
     </React.Fragment>
   );
 }
