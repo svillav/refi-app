@@ -4,7 +4,9 @@ import Separator from './components/Separator/Separator';
 import Periodico from './components/Periodico/Periodico';
 import EventsContainer from './components/EventsContainer/EventsContainer';
 import SomosRefi from './components/SomosRefi/SomosRefi';
-import Contact from './components/Contact/Contact'
+import Contact from './components/Contact/Contact';
+import ToUpButton from './components/ToUpButton/ToUpButton';
+import Footer from './components/Footer/Footer';
 
 function App() {
   return (
@@ -16,7 +18,8 @@ function App() {
       <SomosRefi />
       <Contact />
       <Separator />
-
+      <ToUpButton />
+      <Footer />
     </React.Fragment>
   );
 }
