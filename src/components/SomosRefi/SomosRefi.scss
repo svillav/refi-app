@@ -1,0 +1,74 @@
+.somos-refi-section {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  text-align: center;
+  padding: 40px 0;
+  background-image: url("../assets/background_somos-refi.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: #ffffff;
+
+  .somos-refi-content {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    align-items: center;
+
+    // .image {
+    //   width: 40rem;
+    // }
+
+    .image img {
+      width: 80%;
+      height: auto;
+      border-radius: 0.2rem;
+    }
+  }
+}
+
+.text-container {
+  position: relative;
+  width: 90%;
+  background-color: #000000;
+  text-align: center;
+  padding: 2rem;
+
+  h2 {
+    font-size: 1.5em;
+    font-family: "Dela Gothic One", sans-serif;
+    text-transform: uppercase;
+  }
+
+  .title-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
+
+  img {
+    width: 5rem;
+    margin: 0.5rem;
+  }
+
+  .text {
+    max-height: 25rem;
+    overflow: auto;
+    margin: 1rem 0;
+  }
+
+  p {
+    font-family: "Montserrat", sans-serif;
+    font-size: 1.1rem;
+    padding: 0.5rem;
+  }
+
+  span {
+    font-family: "Montserrat", sans-serif;
+    font-size: 1.2rem;
+    padding: 0.5rem;
+    font-weight: 700;
+  }
+}
