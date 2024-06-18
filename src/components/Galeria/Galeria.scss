@@ -1,0 +1,27 @@
+$background-color: #000000;
+$color: #ffffff;
+
+$font-family-heading: "Dela Gothic One", sans-serif;
+
+.galeria-section {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding: 2rem 0;
+  background-color: $background-color;
+  color: $color;
+  background-image: url("../assets/background_nuevo.png");
+  background-size: cover;
+  background-position: bottom;
+
+  h2 {
+    margin: 1rem auto;
+    font-family: $font-family-heading;
+    font-size: 2rem;
+    text-transform: uppercase;
+  }
+}
+
+#carouselExampleControls {
+  padding: 1.5rem;
+}
