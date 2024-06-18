@@ -17,7 +17,7 @@
     "sass": "^1.49.7",
     "web-vitals": "^2.1.4"
   },
-  "homepage": "https://svillav.github.io/refi-app",
+  "homepage": "https://reficomunidad.ar",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
