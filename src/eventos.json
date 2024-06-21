@@ -17,36 +17,6 @@
             "slug": "TALLER-DE-FOTOGRAFIA-ANALOGICA"
         },
         {
-            "imagen_home": "/media/imagenes_eventos/home/2024/06/cine_2.jpeg",
-            "nombre": "GASTRONOMIA VINO Y CINE",
-            "unica_fecha": false,
-            "desde_fecha": "19/06/2024, 20:30",
-            "moneda": "ARS",
-            "entradas_online_desde": "0.00",
-            "lugar": "REFI, Rosario, Santa Fe",
-            "lugar_responsive": "Rosario",
-            "activar_boton_personalizado": 0,
-            "texto_boton": "",
-            "color_boton_personalizado": "#28a745",
-            "url_externa": "",
-            "slug": "GASTRONOMIA-VINO-Y-CINE"
-        },
-        {
-            "imagen_home": "/media/imagenes_eventos/home/2024/06/borde.jpeg",
-            "nombre": "BORDER",
-            "unica_fecha": true,
-            "desde_fecha": "20/06/2024, 21:00",
-            "moneda": "ARS",
-            "entradas_online_desde": "14000.00",
-            "lugar": "REFI, Rosario, Santa Fe",
-            "lugar_responsive": "Rosario",
-            "activar_boton_personalizado": 0,
-            "texto_boton": "",
-            "color_boton_personalizado": "#28a745",
-            "url_externa": "",
-            "slug": "BORDER"
-        },
-        {
             "imagen_home": "/media/imagenes_eventos/home/2024/05/kia.jpeg",
             "nombre": "K.I.A  ANDR\u00d3MEDA SALADILLO FUNK",
             "unica_fecha": true,
@@ -90,6 +60,21 @@
             "color_boton_personalizado": "#28a745",
             "url_externa": "",
             "slug": "JAZZ-A-LA-CACEROLA"
+        },
+        {
+            "imagen_home": "/media/imagenes_eventos/home/2024/06/cine_2.jpeg",
+            "nombre": "GASTRONOMIA VINO Y CINE",
+            "unica_fecha": true,
+            "desde_fecha": "26/06/2024, 20:30",
+            "moneda": "ARS",
+            "entradas_online_desde": "0.00",
+            "lugar": "REFI, Rosario, Santa Fe",
+            "lugar_responsive": "Rosario",
+            "activar_boton_personalizado": 0,
+            "texto_boton": "",
+            "color_boton_personalizado": "#28a745",
+            "url_externa": "",
+            "slug": "GASTRONOMIA-VINO-Y-CINE"
         },
         {
             "imagen_home": "/media/imagenes_eventos/home/2024/06/19_NUEVO.jpeg",
@@ -167,7 +152,7 @@
             "slug": "FESTI-AMIGUE"
         }
     ],
-    "cantidad_total_fechas_activas": 11,
+    "cantidad_total_fechas_activas": 10,
     "muestra_decimales": false,
     "mostrar_precio_desde": true,
     "moneda": "ARS",
