@@ -5,7 +5,7 @@
             "imagen_home": "/media/imagenes_eventos/home/2024/03/foto.jpeg",
             "nombre": "TALLER DE FOTOGRAFIA ANALOGICA",
             "unica_fecha": true,
-            "desde_fecha": "06/06/2024, 19:00",
+            "desde_fecha": "Todos los jueves, 19:00",
             "moneda": "ARS",
             "entradas_online_desde": "16000.00",
             "lugar": "REFI, Rosario, Santa Fe",
@@ -15,21 +15,6 @@
             "color_boton_personalizado": "#28a745",
             "url_externa": "",
             "slug": "TALLER-DE-FOTOGRAFIA-ANALOGICA"
-        },
-        {
-            "imagen_home": "/media/imagenes_eventos/home/2024/05/kia.jpeg",
-            "nombre": "K.I.A  ANDR\u00d3MEDA SALADILLO FUNK",
-            "unica_fecha": true,
-            "desde_fecha": "21/06/2024, 21:00",
-            "moneda": "ARS",
-            "entradas_online_desde": "2500.00",
-            "lugar": "REFI, Rosario, Santa Fe",
-            "lugar_responsive": "Rosario",
-            "activar_boton_personalizado": 0,
-            "texto_boton": "",
-            "color_boton_personalizado": "#28a745",
-            "url_externa": "",
-            "slug": "K-I-A--ANDROMEDA-SALADILLO-FUNK"
         },
         {
             "imagen_home": "/media/imagenes_eventos/home/2024/05/FLYERS-hagan-ruido.jpeg",
@@ -62,7 +47,7 @@
             "slug": "JAZZ-A-LA-CACEROLA"
         },
         {
-            "imagen_home": "/media/imagenes_eventos/home/2024/06/cine_2.jpeg",
+            "imagen_home": "/media/imagenes_eventos/home/2024/06/dias.jpeg",
             "nombre": "GASTRONOMIA VINO Y CINE",
             "unica_fecha": true,
             "desde_fecha": "26/06/2024, 20:30",
@@ -152,7 +137,7 @@
             "slug": "FESTI-AMIGUE"
         }
     ],
-    "cantidad_total_fechas_activas": 10,
+    "cantidad_total_fechas_activas": 9,
     "muestra_decimales": false,
     "mostrar_precio_desde": true,
     "moneda": "ARS",

@@ -25,6 +25,10 @@ const Event = ({
   };
 
   const formatearFecha = (fecha) => {
+    if (!fecha.includes('/')) {
+      return fecha;
+    }
+    
     const [day, month, year] = fecha.split('/').map(Number);
     const date = new Date(year, month - 1, day);
     const options = { weekday: 'long', day: 'numeric', month: 'long' };
