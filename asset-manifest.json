@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.325cfb3a.css",
-    "main.js": "/static/js/main.f1adf8b5.js",
+    "main.js": "/static/js/main.20281766.js",
     "static/js/453.0b2b42ef.chunk.js": "/static/js/453.0b2b42ef.chunk.js",
     "static/media/background_nuevo.png": "/static/media/background_nuevo.0810d9d1c68e206e766b.png",
     "static/media/gente-sentada-viendo-futbol-lugar-publico-noche.png": "/static/media/gente-sentada-viendo-futbol-lugar-publico-noche.5b2a7865f743581be249.png",
@@ -36,11 +36,11 @@
     "static/media/logoreficomunidad.png": "/static/media/logoreficomunidad.9d15d66a71fa6ec80af5.png",
     "index.html": "/index.html",
     "main.325cfb3a.css.map": "/static/css/main.325cfb3a.css.map",
-    "main.f1adf8b5.js.map": "/static/js/main.f1adf8b5.js.map",
+    "main.20281766.js.map": "/static/js/main.20281766.js.map",
     "453.0b2b42ef.chunk.js.map": "/static/js/453.0b2b42ef.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.325cfb3a.css",
-    "static/js/main.f1adf8b5.js"
+    "static/js/main.20281766.js"
   ]
 }
