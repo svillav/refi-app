@@ -41,11 +41,11 @@ const SomosRefi = () => {
               restaurado donde se dictan cursos y seminarios. También existe un estudio de
               grabación y un nuevo espacio para el desarrollo y ejecución de espectáculos
               literarios, artísticos, musicales y teatrales con capacidad de hasta seiscientas
-              personas, sonido,escenario y plantas de luces propia.
+              personas, sonido, escenario y plantas de luces propia.
             </p>
             <p>
               Refi, además, cuenta con personal profesional en cada una de las áreas
-              que abarca: gastronomía,docencia, comunicación, espectáculos,sonido, iluminación, escenario, y construcción.
+              que abarca: gastronomía, docencia, comunicación, espectáculos, sonido, iluminación, escenario, construcción y software.
             </p>
             <span>
               Refi es cultura
