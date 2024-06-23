@@ -5,7 +5,7 @@
             "imagen_home": "/media/imagenes_eventos/home/2024/03/foto.jpeg",
             "nombre": "TALLER DE FOTOGRAFIA ANALOGICA",
             "unica_fecha": true,
-            "desde_fecha": "Todos los jueves, 19:00",
+            "desde_fecha": "06/06/2024, 19:00",
             "moneda": "ARS",
             "entradas_online_desde": "16000.00",
             "lugar": "REFI, Rosario, Santa Fe",
@@ -15,21 +15,6 @@
             "color_boton_personalizado": "#28a745",
             "url_externa": "",
             "slug": "TALLER-DE-FOTOGRAFIA-ANALOGICA"
-        },
-        {
-            "imagen_home": "/media/imagenes_eventos/home/2024/05/FLYERS-hagan-ruido.jpeg",
-            "nombre": "HAGAN RUIDO",
-            "unica_fecha": true,
-            "desde_fecha": "22/06/2024, 19:00",
-            "moneda": "ARS",
-            "entradas_online_desde": "3000.00",
-            "lugar": "REFI, Rosario, Santa Fe",
-            "lugar_responsive": "Rosario",
-            "activar_boton_personalizado": 0,
-            "texto_boton": "",
-            "color_boton_personalizado": "#28a745",
-            "url_externa": "",
-            "slug": "HAGAN-RUIDO"
         },
         {
             "imagen_home": "/media/imagenes_eventos/home/2024/06/jaz.jpeg",
@@ -137,7 +122,7 @@
             "slug": "FESTI-AMIGUE"
         }
     ],
-    "cantidad_total_fechas_activas": 9,
+    "cantidad_total_fechas_activas": 8,
     "muestra_decimales": false,
     "mostrar_precio_desde": true,
     "moneda": "ARS",
