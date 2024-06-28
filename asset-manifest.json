@@ -1,21 +1,25 @@
 {
   "files": {
     "main.css": "/static/css/main.325cfb3a.css",
-    "main.js": "/static/js/main.c69a653c.js",
-    "static/js/453.0b2b42ef.chunk.js": "/static/js/453.0b2b42ef.chunk.js",
+    "main.js": "/static/js/main.161338e7.js",
+    "static/js/453.69c052a6.chunk.js": "/static/js/453.69c052a6.chunk.js",
     "static/media/background_nuevo.png": "/static/media/background_nuevo.0810d9d1c68e206e766b.png",
     "static/media/gente-sentada-viendo-futbol-lugar-publico-noche.png": "/static/media/gente-sentada-viendo-futbol-lugar-publico-noche.5b2a7865f743581be249.png",
     "static/media/periodico-refi-junio.pdf": "/static/media/periodico-refi-junio.0bc5521c51f2e04d1fe2.pdf",
     "static/media/periodico-junio-imagen.png": "/static/media/periodico-junio-imagen.aa90278661d671953388.png",
     "static/media/HAGAN-RUIDO.jpeg": "/static/media/HAGAN-RUIDO.1ffd6183ec199f0cd6af.jpeg",
+    "static/media/FESTI-CCC.jpeg": "/static/media/FESTI-CCC.c5ed62c2fc5de434dec8.jpeg",
     "static/media/K-I-A--ANDROMEDA-SALADILLO-FUNK.jpeg": "/static/media/K-I-A--ANDROMEDA-SALADILLO-FUNK.e620943295ba0f3bc398.jpeg",
     "static/media/galeria1.jpeg": "/static/media/galeria1.e110180e867ca1e21199.jpeg",
     "static/media/galeria5.jpeg": "/static/media/galeria5.5fd4d6e2a116d6d69543.jpeg",
+    "static/media/LA-ROMI-SCALORA.jpeg": "/static/media/LA-ROMI-SCALORA.f43b7ca28584bb23f084.jpeg",
     "static/media/ARTICULO-19--EL-EXPERIMENTO---TEATRO-EN-REFI.jpeg": "/static/media/ARTICULO-19--EL-EXPERIMENTO---TEATRO-EN-REFI.970a3680e48562751bde.jpeg",
     "static/media/JAZZ-A-LA-CACEROLA.jpeg": "/static/media/JAZZ-A-LA-CACEROLA.42a3d0f88f2dd3bff11e.jpeg",
     "static/media/galeria3.jpeg": "/static/media/galeria3.4eacdf9647c79051416d.jpeg",
+    "static/media/TANGO-A-LA-CACEROLA-.jpeg": "/static/media/TANGO-A-LA-CACEROLA-.3dbfd4ffd5d921be8c47.jpeg",
     "static/media/carr3.jpg": "/static/media/carr3.12b6e201aaf20e4ae51b.jpg",
     "static/media/GASTRONOMIA-VINO-Y-CINE.jpeg": "/static/media/GASTRONOMIA-VINO-Y-CINE.2c569e626e93019b1a09.jpeg",
+    "static/media/NORMAL-ROCK.jpeg": "/static/media/NORMAL-ROCK.82dda0e9c86ded2952c8.jpeg",
     "static/media/carr2.jpg": "/static/media/carr2.934108db42499c222487.jpg",
     "static/media/CORTITO-Y-FUNKY---LAS-TUSSI.jpeg": "/static/media/CORTITO-Y-FUNKY---LAS-TUSSI.90d95bf62dd58e38e4f0.jpeg",
     "static/media/SONOFILMICA.jpeg": "/static/media/SONOFILMICA.ab56947203866b5cd21a.jpeg",
@@ -36,11 +40,11 @@
     "static/media/logoreficomunidad.png": "/static/media/logoreficomunidad.9d15d66a71fa6ec80af5.png",
     "index.html": "/index.html",
     "main.325cfb3a.css.map": "/static/css/main.325cfb3a.css.map",
-    "main.c69a653c.js.map": "/static/js/main.c69a653c.js.map",
-    "453.0b2b42ef.chunk.js.map": "/static/js/453.0b2b42ef.chunk.js.map"
+    "main.161338e7.js.map": "/static/js/main.161338e7.js.map",
+    "453.69c052a6.chunk.js.map": "/static/js/453.69c052a6.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.325cfb3a.css",
-    "static/js/main.c69a653c.js"
+    "static/js/main.161338e7.js"
   ]
 }
