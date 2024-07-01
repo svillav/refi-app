@@ -2,34 +2,19 @@
     "media_url": "/media/",
     "eventos": [
         {
-            "imagen_home": "/media/imagenes_eventos/home/2024/06/19_NUEVO.jpeg",
-            "nombre": "ART\u00cdCULO 19, EL EXPERIMENTO - TEATRO EN REFI",
-            "unica_fecha": true,
-            "desde_fecha": "28/06/2024, 20:30",
-            "moneda": null,
-            "entradas_online_desde": "6000.00",
-            "lugar": "REFI, Rosario, Santa Fe",
-            "lugar_responsive": "Rosario",
-            "activar_boton_personalizado": 0,
-            "texto_boton": "",
-            "color_boton_personalizado": "#28a745",
-            "url_externa": "",
-            "slug": "ARTICULO-19--EL-EXPERIMENTO---TEATRO-EN-REFI"
-        },
-        {
-            "imagen_home": "/media/imagenes_eventos/home/2024/05/fin__SXfyR8I.jpeg",
-            "nombre": "FIN DEL MUNDO",
-            "unica_fecha": true,
-            "desde_fecha": "29/06/2024, 21:00",
+            "imagen_home": "/media/imagenes_eventos/home/2024/06/copola_.jpeg",
+            "nombre": "GASTRONOMIA VINO Y CINE",
+            "unica_fecha": false,
+            "desde_fecha": "03/07/2024, 20:30",
             "moneda": "ARS",
-            "entradas_online_desde": "4500.00",
+            "entradas_online_desde": "0.00",
             "lugar": "REFI, Rosario, Santa Fe",
             "lugar_responsive": "Rosario",
             "activar_boton_personalizado": 0,
             "texto_boton": "",
             "color_boton_personalizado": "#28a745",
             "url_externa": "",
-            "slug": "FIN-DEL-MUNDO"
+            "slug": "GASTRONOMIA-VINO-Y-CINE"
         },
         {
             "imagen_home": "/media/imagenes_eventos/home/2024/06/cortito_IMQkAwe.jpeg",
@@ -60,6 +45,36 @@
             "color_boton_personalizado": "#28a745",
             "url_externa": "",
             "slug": "TANGO-A-LA-CACEROLA-"
+        },
+        {
+            "imagen_home": "/media/imagenes_eventos/home/2024/06/bana.jpeg",
+            "nombre": "TALLARIN CON BANANA",
+            "unica_fecha": true,
+            "desde_fecha": "10/07/2024, 14:30",
+            "moneda": "ARS",
+            "entradas_online_desde": "4000.00",
+            "lugar": "REFI, Rosario, Santa Fe",
+            "lugar_responsive": "Rosario",
+            "activar_boton_personalizado": 0,
+            "texto_boton": "",
+            "color_boton_personalizado": "#28a745",
+            "url_externa": "",
+            "slug": "TALLARIN-CON-BANANA"
+        },
+        {
+            "imagen_home": "/media/imagenes_eventos/home/2024/06/frank.jpeg",
+            "nombre": "FRANKENSTEIN",
+            "unica_fecha": true,
+            "desde_fecha": "11/07/2024, 14:30",
+            "moneda": "ARS",
+            "entradas_online_desde": "4000.00",
+            "lugar": "REFI, Rosario, Santa Fe",
+            "lugar_responsive": "Rosario",
+            "activar_boton_personalizado": 0,
+            "texto_boton": "",
+            "color_boton_personalizado": "#28a745",
+            "url_externa": "",
+            "slug": "FRANKENSTEIN"
         },
         {
             "imagen_home": "/media/imagenes_eventos/home/2024/06/sono.jpeg",
@@ -137,7 +152,7 @@
             "slug": "FESTI-CCC"
         }
     ],
-    "cantidad_total_fechas_activas": 9,
+    "cantidad_total_fechas_activas": 10,
     "muestra_decimales": false,
     "mostrar_precio_desde": true,
     "moneda": "ARS",
