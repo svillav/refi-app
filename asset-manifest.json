@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.325cfb3a.css",
-    "main.js": "/static/js/main.ef8466b7.js",
+    "main.js": "/static/js/main.87f6480b.js",
     "static/js/453.69c052a6.chunk.js": "/static/js/453.69c052a6.chunk.js",
     "static/media/background_nuevo.png": "/static/media/background_nuevo.0810d9d1c68e206e766b.png",
     "static/media/gente-sentada-viendo-futbol-lugar-publico-noche.png": "/static/media/gente-sentada-viendo-futbol-lugar-publico-noche.5b2a7865f743581be249.png",
@@ -12,10 +12,12 @@
     "static/media/K-I-A--ANDROMEDA-SALADILLO-FUNK.jpeg": "/static/media/K-I-A--ANDROMEDA-SALADILLO-FUNK.e620943295ba0f3bc398.jpeg",
     "static/media/galeria1.jpeg": "/static/media/galeria1.e110180e867ca1e21199.jpeg",
     "static/media/galeria5.jpeg": "/static/media/galeria5.5fd4d6e2a116d6d69543.jpeg",
+    "static/media/TNT-RUIDO.jpeg": "/static/media/TNT-RUIDO.d411f2bcd5d214cd389b.jpeg",
     "static/media/LA-ROMI-SCALORA.jpeg": "/static/media/LA-ROMI-SCALORA.f43b7ca28584bb23f084.jpeg",
-    "static/media/ARTICULO-19--EL-EXPERIMENTO---TEATRO-EN-REFI.jpeg": "/static/media/ARTICULO-19--EL-EXPERIMENTO---TEATRO-EN-REFI.970a3680e48562751bde.jpeg",
+    "static/media/ARTICULO-19--EL-EXPERIMENTO---TEATRO-EN-REFI.jpeg": "/static/media/ARTICULO-19--EL-EXPERIMENTO---TEATRO-EN-REFI.f53ce5f9c1f424bb016d.jpeg",
     "static/media/JAZZ-A-LA-CACEROLA.jpeg": "/static/media/JAZZ-A-LA-CACEROLA.42a3d0f88f2dd3bff11e.jpeg",
     "static/media/galeria3.jpeg": "/static/media/galeria3.4eacdf9647c79051416d.jpeg",
+    "static/media/FUCK-YOU.jpeg": "/static/media/FUCK-YOU.63996bbfa3a009bac03a.jpeg",
     "static/media/GASTRONOMIA-VINO-Y-CINE.jpeg": "/static/media/GASTRONOMIA-VINO-Y-CINE.fc856a96955d37647eca.jpeg",
     "static/media/TANGO-A-LA-CACEROLA-.jpeg": "/static/media/TANGO-A-LA-CACEROLA-.3dbfd4ffd5d921be8c47.jpeg",
     "static/media/carr3.jpg": "/static/media/carr3.12b6e201aaf20e4ae51b.jpg",
@@ -42,11 +44,11 @@
     "static/media/logoreficomunidad.png": "/static/media/logoreficomunidad.9d15d66a71fa6ec80af5.png",
     "index.html": "/index.html",
     "main.325cfb3a.css.map": "/static/css/main.325cfb3a.css.map",
-    "main.ef8466b7.js.map": "/static/js/main.ef8466b7.js.map",
+    "main.87f6480b.js.map": "/static/js/main.87f6480b.js.map",
     "453.69c052a6.chunk.js.map": "/static/js/453.69c052a6.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.325cfb3a.css",
-    "static/js/main.ef8466b7.js"
+    "static/js/main.87f6480b.js"
   ]
 }
