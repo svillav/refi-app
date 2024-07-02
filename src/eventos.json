@@ -92,6 +92,36 @@
             "slug": "SONOFILMICA"
         },
         {
+            "imagen_home": "/media/imagenes_eventos/home/2024/07/tnt.jpeg",
+            "nombre": "TNT RUIDO",
+            "unica_fecha": true,
+            "desde_fecha": "13/07/2024, 21:00",
+            "moneda": "ARS",
+            "entradas_online_desde": "0.00",
+            "lugar": "REFI, Rosario, Santa Fe",
+            "lugar_responsive": "Rosario",
+            "activar_boton_personalizado": 0,
+            "texto_boton": "",
+            "color_boton_personalizado": "#28a745",
+            "url_externa": "",
+            "slug": "TNT-RUIDO"
+        },
+        {
+            "imagen_home": "/media/imagenes_eventos/home/2024/07/rrrrr.jpeg",
+            "nombre": "ART\u00cdCULO 19, EL EXPERIMENTO - TEATRO EN REFI",
+            "unica_fecha": true,
+            "desde_fecha": "18/07/2024, 21:00",
+            "moneda": null,
+            "entradas_online_desde": "6000.00",
+            "lugar": "REFI, Rosario, Santa Fe",
+            "lugar_responsive": "Rosario",
+            "activar_boton_personalizado": 0,
+            "texto_boton": "",
+            "color_boton_personalizado": "#28a745",
+            "url_externa": "",
+            "slug": "ARTICULO-19--EL-EXPERIMENTO---TEATRO-EN-REFI"
+        },
+        {
             "imagen_home": "/media/imagenes_eventos/home/2024/06/session.jpeg",
             "nombre": "FESTI AMIGUE",
             "unica_fecha": true,
@@ -150,9 +180,24 @@
             "color_boton_personalizado": "#28a745",
             "url_externa": "",
             "slug": "FESTI-CCC"
+        },
+        {
+            "imagen_home": "/media/imagenes_eventos/home/2024/07/sumo.jpeg",
+            "nombre": "FUCK YOU",
+            "unica_fecha": true,
+            "desde_fecha": "15/08/2024, 20:00",
+            "moneda": "ARS",
+            "entradas_online_desde": "0.00",
+            "lugar": "REFI, Rosario, Santa Fe",
+            "lugar_responsive": "Rosario",
+            "activar_boton_personalizado": 0,
+            "texto_boton": "",
+            "color_boton_personalizado": "#28a745",
+            "url_externa": "",
+            "slug": "FUCK-YOU"
         }
     ],
-    "cantidad_total_fechas_activas": 10,
+    "cantidad_total_fechas_activas": 13,
     "muestra_decimales": false,
     "mostrar_precio_desde": true,
     "moneda": "ARS",
