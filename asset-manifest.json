@@ -1,12 +1,11 @@
 {
   "files": {
     "main.css": "/static/css/main.325cfb3a.css",
-    "main.js": "/static/js/main.87f6480b.js",
+    "main.js": "/static/js/main.cc5303fc.js",
     "static/js/453.69c052a6.chunk.js": "/static/js/453.69c052a6.chunk.js",
     "static/media/background_nuevo.png": "/static/media/background_nuevo.0810d9d1c68e206e766b.png",
     "static/media/gente-sentada-viendo-futbol-lugar-publico-noche.png": "/static/media/gente-sentada-viendo-futbol-lugar-publico-noche.5b2a7865f743581be249.png",
-    "static/media/periodico-refi-junio.pdf": "/static/media/periodico-refi-junio.0bc5521c51f2e04d1fe2.pdf",
-    "static/media/periodico-junio-imagen.png": "/static/media/periodico-junio-imagen.aa90278661d671953388.png",
+    "static/media/periodico-julio.pdf": "/static/media/periodico-julio.c8cf395795cb6f6e9765.pdf",
     "static/media/HAGAN-RUIDO.jpeg": "/static/media/HAGAN-RUIDO.1ffd6183ec199f0cd6af.jpeg",
     "static/media/FESTI-CCC.jpeg": "/static/media/FESTI-CCC.c5ed62c2fc5de434dec8.jpeg",
     "static/media/K-I-A--ANDROMEDA-SALADILLO-FUNK.jpeg": "/static/media/K-I-A--ANDROMEDA-SALADILLO-FUNK.e620943295ba0f3bc398.jpeg",
@@ -19,6 +18,7 @@
     "static/media/galeria3.jpeg": "/static/media/galeria3.4eacdf9647c79051416d.jpeg",
     "static/media/FUCK-YOU.jpeg": "/static/media/FUCK-YOU.63996bbfa3a009bac03a.jpeg",
     "static/media/GASTRONOMIA-VINO-Y-CINE.jpeg": "/static/media/GASTRONOMIA-VINO-Y-CINE.fc856a96955d37647eca.jpeg",
+    "static/media/periodico-julio.png": "/static/media/periodico-julio.1275bef26017d78f7fa4.png",
     "static/media/TANGO-A-LA-CACEROLA-.jpeg": "/static/media/TANGO-A-LA-CACEROLA-.3dbfd4ffd5d921be8c47.jpeg",
     "static/media/carr3.jpg": "/static/media/carr3.12b6e201aaf20e4ae51b.jpg",
     "static/media/NORMAL-ROCK.jpeg": "/static/media/NORMAL-ROCK.82dda0e9c86ded2952c8.jpeg",
@@ -44,11 +44,11 @@
     "static/media/logoreficomunidad.png": "/static/media/logoreficomunidad.9d15d66a71fa6ec80af5.png",
     "index.html": "/index.html",
     "main.325cfb3a.css.map": "/static/css/main.325cfb3a.css.map",
-    "main.87f6480b.js.map": "/static/js/main.87f6480b.js.map",
+    "main.cc5303fc.js.map": "/static/js/main.cc5303fc.js.map",
     "453.69c052a6.chunk.js.map": "/static/js/453.69c052a6.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.325cfb3a.css",
-    "static/js/main.87f6480b.js"
+    "static/js/main.cc5303fc.js"
   ]
 }
