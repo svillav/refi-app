@@ -2,27 +2,12 @@
     "media_url": "/media/",
     "eventos": [
         {
-            "imagen_home": "/media/imagenes_eventos/home/2024/06/copola_.jpeg",
-            "nombre": "GASTRONOMIA VINO Y CINE",
-            "unica_fecha": false,
-            "desde_fecha": "03/07/2024, 20:30",
-            "moneda": "ARS",
-            "entradas_online_desde": "0.00",
-            "lugar": "REFI, Rosario, Santa Fe",
-            "lugar_responsive": "Rosario",
-            "activar_boton_personalizado": 0,
-            "texto_boton": "",
-            "color_boton_personalizado": "#28a745",
-            "url_externa": "",
-            "slug": "GASTRONOMIA-VINO-Y-CINE"
-        },
-        {
             "imagen_home": "/media/imagenes_eventos/home/2024/06/cortito_IMQkAwe.jpeg",
             "nombre": "CORTITO Y FUNKY - LAS TUSSI",
             "unica_fecha": true,
             "desde_fecha": "05/07/2024, 20:30",
             "moneda": "ARS",
-            "entradas_online_desde": "0.00",
+            "entradas_online_desde": "2000.00",
             "lugar": "REFI, Rosario, Santa Fe",
             "lugar_responsive": "Rosario",
             "activar_boton_personalizado": 0,
@@ -60,6 +45,21 @@
             "color_boton_personalizado": "#28a745",
             "url_externa": "",
             "slug": "TALLARIN-CON-BANANA"
+        },
+        {
+            "imagen_home": "/media/imagenes_eventos/home/2024/06/copola_.jpeg",
+            "nombre": "GASTRONOMIA VINO Y CINE",
+            "unica_fecha": false,
+            "desde_fecha": "10/07/2024, 20:30",
+            "moneda": "ARS",
+            "entradas_online_desde": "0.00",
+            "lugar": "REFI, Rosario, Santa Fe",
+            "lugar_responsive": "Rosario",
+            "activar_boton_personalizado": 0,
+            "texto_boton": "",
+            "color_boton_personalizado": "#28a745",
+            "url_externa": "",
+            "slug": "GASTRONOMIA-VINO-Y-CINE"
         },
         {
             "imagen_home": "/media/imagenes_eventos/home/2024/06/frank.jpeg",
@@ -157,7 +157,7 @@
             "unica_fecha": true,
             "desde_fecha": "25/07/2024, 20:00",
             "moneda": "ARS",
-            "entradas_online_desde": "6000.00",
+            "entradas_online_desde": "7500.00",
             "lugar": "REFI, Rosario, Santa Fe",
             "lugar_responsive": "Rosario",
             "activar_boton_personalizado": 0,
@@ -182,6 +182,21 @@
             "slug": "FESTI-CCC"
         },
         {
+            "imagen_home": "/media/imagenes_eventos/home/2024/07/SEMILLA.jpeg",
+            "nombre": "TROJANOS + LA SEMILLA",
+            "unica_fecha": true,
+            "desde_fecha": "02/08/2024, 21:00",
+            "moneda": "ARS",
+            "entradas_online_desde": "5000.00",
+            "lugar": "REFI, Rosario, Santa Fe",
+            "lugar_responsive": "Rosario",
+            "activar_boton_personalizado": 0,
+            "texto_boton": "",
+            "color_boton_personalizado": "#28a745",
+            "url_externa": "",
+            "slug": "TROJANOS---LA-SEMILLA"
+        },
+        {
             "imagen_home": "/media/imagenes_eventos/home/2024/07/sumo.jpeg",
             "nombre": "FUCK YOU",
             "unica_fecha": true,
@@ -197,7 +212,7 @@
             "slug": "FUCK-YOU"
         }
     ],
-    "cantidad_total_fechas_activas": 13,
+    "cantidad_total_fechas_activas": 14,
     "muestra_decimales": false,
     "mostrar_precio_desde": true,
     "moneda": "ARS",
