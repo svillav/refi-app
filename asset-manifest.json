@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.325cfb3a.css",
-    "main.js": "/static/js/main.cc5303fc.js",
+    "main.js": "/static/js/main.a479ea60.js",
     "static/js/453.69c052a6.chunk.js": "/static/js/453.69c052a6.chunk.js",
     "static/media/background_nuevo.png": "/static/media/background_nuevo.0810d9d1c68e206e766b.png",
     "static/media/gente-sentada-viendo-futbol-lugar-publico-noche.png": "/static/media/gente-sentada-viendo-futbol-lugar-publico-noche.5b2a7865f743581be249.png",
@@ -33,6 +33,7 @@
     "static/media/TALLER-DE-FOTOGRAFIA-ANALOGICA.jpeg": "/static/media/TALLER-DE-FOTOGRAFIA-ANALOGICA.7605e39b46a271910bc3.jpeg",
     "static/media/carr1.jpg": "/static/media/carr1.bd6c1627da37874f366d.jpg",
     "static/media/galeria4.jpeg": "/static/media/galeria4.cca758ccec7b7b27f763.jpeg",
+    "static/media/TROJANOS---LA-SEMILLA.jpeg": "/static/media/TROJANOS---LA-SEMILLA.e95dff6eff425b44d4df.jpeg",
     "static/media/FIN-DEL-MUNDO.jpeg": "/static/media/FIN-DEL-MUNDO.72a53dc8a6762a481a82.jpeg",
     "static/media/galeria2.jpeg": "/static/media/galeria2.912416b403352f03f2a1.jpeg",
     "static/media/carr4.jpg": "/static/media/carr4.c21c62a647e356c8d1c7.jpg",
@@ -44,11 +45,11 @@
     "static/media/logoreficomunidad.png": "/static/media/logoreficomunidad.9d15d66a71fa6ec80af5.png",
     "index.html": "/index.html",
     "main.325cfb3a.css.map": "/static/css/main.325cfb3a.css.map",
-    "main.cc5303fc.js.map": "/static/js/main.cc5303fc.js.map",
+    "main.a479ea60.js.map": "/static/js/main.a479ea60.js.map",
     "453.69c052a6.chunk.js.map": "/static/js/453.69c052a6.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.325cfb3a.css",
-    "static/js/main.cc5303fc.js"
+    "static/js/main.a479ea60.js"
   ]
 }
