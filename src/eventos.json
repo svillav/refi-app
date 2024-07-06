@@ -2,21 +2,6 @@
     "media_url": "/media/",
     "eventos": [
         {
-            "imagen_home": "/media/imagenes_eventos/home/2024/06/cortito_IMQkAwe.jpeg",
-            "nombre": "CORTITO Y FUNKY - LAS TUSSI",
-            "unica_fecha": true,
-            "desde_fecha": "05/07/2024, 20:30",
-            "moneda": "ARS",
-            "entradas_online_desde": "2000.00",
-            "lugar": "REFI, Rosario, Santa Fe",
-            "lugar_responsive": "Rosario",
-            "activar_boton_personalizado": 0,
-            "texto_boton": "",
-            "color_boton_personalizado": "#28a745",
-            "url_externa": "",
-            "slug": "CORTITO-Y-FUNKY---LAS-TUSSI"
-        },
-        {
             "imagen_home": "/media/imagenes_eventos/home/2024/06/tango.jpeg",
             "nombre": "TANGO A LA CACEROLA",
             "unica_fecha": false,
@@ -97,7 +82,7 @@
             "unica_fecha": true,
             "desde_fecha": "13/07/2024, 21:00",
             "moneda": "ARS",
-            "entradas_online_desde": "0.00",
+            "entradas_online_desde": "7000.00",
             "lugar": "REFI, Rosario, Santa Fe",
             "lugar_responsive": "Rosario",
             "activar_boton_personalizado": 0,
@@ -210,6 +195,21 @@
             "color_boton_personalizado": "#28a745",
             "url_externa": "",
             "slug": "FUCK-YOU"
+        },
+        {
+            "imagen_home": "/media/imagenes_eventos/home/2024/07/macha_.jpeg",
+            "nombre": "MECHAYRXMEO",
+            "unica_fecha": true,
+            "desde_fecha": "23/08/2024, 21:00",
+            "moneda": "ARS",
+            "entradas_online_desde": "5000.00",
+            "lugar": "REFI, Rosario, Santa Fe",
+            "lugar_responsive": "Rosario",
+            "activar_boton_personalizado": 0,
+            "texto_boton": "",
+            "color_boton_personalizado": "#28a745",
+            "url_externa": "",
+            "slug": "MECHAYRXMEO"
         }
     ],
     "cantidad_total_fechas_activas": 14,
