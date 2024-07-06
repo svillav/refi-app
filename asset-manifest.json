@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.325cfb3a.css",
-    "main.js": "/static/js/main.a479ea60.js",
+    "main.js": "/static/js/main.b575e276.js",
     "static/js/453.69c052a6.chunk.js": "/static/js/453.69c052a6.chunk.js",
     "static/media/background_nuevo.png": "/static/media/background_nuevo.0810d9d1c68e206e766b.png",
     "static/media/gente-sentada-viendo-futbol-lugar-publico-noche.png": "/static/media/gente-sentada-viendo-futbol-lugar-publico-noche.5b2a7865f743581be249.png",
@@ -25,6 +25,7 @@
     "static/media/carr2.jpg": "/static/media/carr2.934108db42499c222487.jpg",
     "static/media/FRANKENSTEIN.jpeg": "/static/media/FRANKENSTEIN.a94e042d6da978b88464.jpeg",
     "static/media/TALLARIN-CON-BANANA.jpeg": "/static/media/TALLARIN-CON-BANANA.6ca38f0346472736c185.jpeg",
+    "static/media/MECHAYRXMEO.jpeg": "/static/media/MECHAYRXMEO.c009163ff025f084dd9d.jpeg",
     "static/media/CORTITO-Y-FUNKY---LAS-TUSSI.jpeg": "/static/media/CORTITO-Y-FUNKY---LAS-TUSSI.90d95bf62dd58e38e4f0.jpeg",
     "static/media/SONOFILMICA.jpeg": "/static/media/SONOFILMICA.ab56947203866b5cd21a.jpeg",
     "static/media/KILLER-BURRITOS.jpeg": "/static/media/KILLER-BURRITOS.c927f8bb93a2c013962a.jpeg",
@@ -45,11 +46,11 @@
     "static/media/logoreficomunidad.png": "/static/media/logoreficomunidad.9d15d66a71fa6ec80af5.png",
     "index.html": "/index.html",
     "main.325cfb3a.css.map": "/static/css/main.325cfb3a.css.map",
-    "main.a479ea60.js.map": "/static/js/main.a479ea60.js.map",
+    "main.b575e276.js.map": "/static/js/main.b575e276.js.map",
     "453.69c052a6.chunk.js.map": "/static/js/453.69c052a6.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.325cfb3a.css",
-    "static/js/main.a479ea60.js"
+    "static/js/main.b575e276.js"
   ]
 }
