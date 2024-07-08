@@ -3,7 +3,7 @@ import './EventsContainer.scss';
 import Event from '../Event/Event';
 import eventosData from '../../eventos.json';
 
-const images = require.context('../assets/eventos/', true);
+const images = require.context('../assets/eventos/', false, /\.(jpeg|jpg)$/);
 
 const EventsContainer = () => {
   const eventsArray = eventosData.eventos;
