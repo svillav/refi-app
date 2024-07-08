@@ -2,21 +2,6 @@
     "media_url": "/media/",
     "eventos": [
         {
-            "imagen_home": "/media/imagenes_eventos/home/2024/06/tango.jpeg",
-            "nombre": "TANGO A LA CACEROLA",
-            "unica_fecha": false,
-            "desde_fecha": "07/07/2024, 20:30",
-            "moneda": "ARS",
-            "entradas_online_desde": "0.00",
-            "lugar": "REFI, Rosario, Santa Fe",
-            "lugar_responsive": "Rosario",
-            "activar_boton_personalizado": 0,
-            "texto_boton": "",
-            "color_boton_personalizado": "#28a745",
-            "url_externa": "",
-            "slug": "TANGO-A-LA-CACEROLA-"
-        },
-        {
             "imagen_home": "/media/imagenes_eventos/home/2024/06/bana.jpeg",
             "nombre": "TALLARIN CON BANANA",
             "unica_fecha": true,
@@ -32,7 +17,7 @@
             "slug": "TALLARIN-CON-BANANA"
         },
         {
-            "imagen_home": "/media/imagenes_eventos/home/2024/06/copola_.jpeg",
+            "imagen_home": "/media/imagenes_eventos/home/2024/07/fran.jpeg",
             "nombre": "GASTRONOMIA VINO Y CINE",
             "unica_fecha": false,
             "desde_fecha": "10/07/2024, 20:30",
@@ -90,6 +75,21 @@
             "color_boton_personalizado": "#28a745",
             "url_externa": "",
             "slug": "TNT-RUIDO"
+        },
+        {
+            "imagen_home": "/media/imagenes_eventos/home/2024/06/tango.jpeg",
+            "nombre": "TANGO A LA CACEROLA",
+            "unica_fecha": false,
+            "desde_fecha": "14/07/2024, 20:30",
+            "moneda": "ARS",
+            "entradas_online_desde": "0.00",
+            "lugar": "REFI, Rosario, Santa Fe",
+            "lugar_responsive": "Rosario",
+            "activar_boton_personalizado": 0,
+            "texto_boton": "",
+            "color_boton_personalizado": "#28a745",
+            "url_externa": "",
+            "slug": "TANGO-A-LA-CACEROLA-"
         },
         {
             "imagen_home": "/media/imagenes_eventos/home/2024/07/rrrrr.jpeg",
