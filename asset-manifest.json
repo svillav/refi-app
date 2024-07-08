@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.325cfb3a.css",
-    "main.js": "/static/js/main.b575e276.js",
+    "main.js": "/static/js/main.d6825cfc.js",
     "static/js/453.69c052a6.chunk.js": "/static/js/453.69c052a6.chunk.js",
     "static/media/background_nuevo.png": "/static/media/background_nuevo.0810d9d1c68e206e766b.png",
     "static/media/gente-sentada-viendo-futbol-lugar-publico-noche.png": "/static/media/gente-sentada-viendo-futbol-lugar-publico-noche.5b2a7865f743581be249.png",
@@ -17,10 +17,10 @@
     "static/media/JAZZ-A-LA-CACEROLA.jpeg": "/static/media/JAZZ-A-LA-CACEROLA.42a3d0f88f2dd3bff11e.jpeg",
     "static/media/galeria3.jpeg": "/static/media/galeria3.4eacdf9647c79051416d.jpeg",
     "static/media/FUCK-YOU.jpeg": "/static/media/FUCK-YOU.63996bbfa3a009bac03a.jpeg",
-    "static/media/GASTRONOMIA-VINO-Y-CINE.jpeg": "/static/media/GASTRONOMIA-VINO-Y-CINE.fc856a96955d37647eca.jpeg",
     "static/media/periodico-julio.png": "/static/media/periodico-julio.1275bef26017d78f7fa4.png",
     "static/media/TANGO-A-LA-CACEROLA-.jpeg": "/static/media/TANGO-A-LA-CACEROLA-.3dbfd4ffd5d921be8c47.jpeg",
     "static/media/carr3.jpg": "/static/media/carr3.12b6e201aaf20e4ae51b.jpg",
+    "static/media/GASTRONOMIA-VINO-Y-CINE.jpeg": "/static/media/GASTRONOMIA-VINO-Y-CINE.54dc684cf61b90520216.jpeg",
     "static/media/NORMAL-ROCK.jpeg": "/static/media/NORMAL-ROCK.82dda0e9c86ded2952c8.jpeg",
     "static/media/carr2.jpg": "/static/media/carr2.934108db42499c222487.jpg",
     "static/media/FRANKENSTEIN.jpeg": "/static/media/FRANKENSTEIN.a94e042d6da978b88464.jpeg",
@@ -46,11 +46,11 @@
     "static/media/logoreficomunidad.png": "/static/media/logoreficomunidad.9d15d66a71fa6ec80af5.png",
     "index.html": "/index.html",
     "main.325cfb3a.css.map": "/static/css/main.325cfb3a.css.map",
-    "main.b575e276.js.map": "/static/js/main.b575e276.js.map",
+    "main.d6825cfc.js.map": "/static/js/main.d6825cfc.js.map",
     "453.69c052a6.chunk.js.map": "/static/js/453.69c052a6.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.325cfb3a.css",
-    "static/js/main.b575e276.js"
+    "static/js/main.d6825cfc.js"
   ]
 }
