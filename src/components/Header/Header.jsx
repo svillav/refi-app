@@ -51,10 +51,10 @@ const Header = () => {
           <Collapse in={open}>
             <div id="navbarNav" className="collapse navbar-collapse">
               <Nav className="ml-auto">
-                <Nav.Link className="nav-link eventos" href="#eventos">Eventos</Nav.Link>
-                <Nav.Link className="nav-link somos-refi" href="#somos-refi">Somos refi</Nav.Link>
-                <Nav.Link className="nav-link galeria" href="#galeria">Galería</Nav.Link>
-                <Nav.Link className="nav-link contacto" href="#contacto">Contacto</Nav.Link>
+                <Nav.Link className="nav-link eventos text-center" href="#eventos">Eventos</Nav.Link>
+                <Nav.Link className="nav-link somos-refi text-center" href="#somos-refi">Somos refi</Nav.Link>
+                <Nav.Link className="nav-link galeria text-center" href="#galeria">Galería</Nav.Link>
+                <Nav.Link className="nav-link contacto text-center" href="#contacto">Contacto</Nav.Link>
               </Nav>
             </div>
           </Collapse>
