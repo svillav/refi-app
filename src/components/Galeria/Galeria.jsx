@@ -7,8 +7,6 @@ import galeria4 from "../assets/galeria4.jpeg";
 import galeria5 from "../assets/galeria5.jpeg";
 import carr1 from "../assets/carr1.jpg";
 import carr2 from "../assets/carr2.jpg";
-import carr3 from "../assets/carr3.jpg";
-import carr4 from "../assets/carr4.jpg";
 
 const Galeria = () => {
   return (
@@ -67,20 +65,6 @@ const Galeria = () => {
               src={carr2}
               className="d-block w-100"
               alt="Imagen 7"
-            />
-          </div>
-          <div className="carousel-item">
-            <img
-              src={carr3}
-              className="d-block w-100"
-              alt="Imagen 8"
-            />
-          </div>
-          <div className="carousel-item">
-            <img
-              src={carr4}
-              className="d-block w-100"
-              alt="Imagen 9"
             />
           </div>
         </div>
