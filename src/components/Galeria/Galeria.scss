@@ -24,4 +24,8 @@ $font-family-heading: "Dela Gothic One", sans-serif;
 
 #carouselExampleControls {
   padding: 1.5rem;
+
+  .carousel-inner {
+    max-width: 600px;
+  }
 }

@@ -16,7 +16,7 @@ const Galeria = () => {
       <h2>GALERÍA</h2>
       <div
         id="carouselExampleControls"
-        className="carousel slide"
+        className="carousel slide d-flex justify-content-center"
         data-ride="carousel"
       >
         <div className="carousel-inner">
