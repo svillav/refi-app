@@ -77,21 +77,6 @@
             "slug": "TNT-RUIDO"
         },
         {
-            "imagen_home": "/media/imagenes_eventos/home/2024/06/tango.jpeg",
-            "nombre": "TANGO A LA CACEROLA",
-            "unica_fecha": false,
-            "desde_fecha": "14/07/2024, 20:30",
-            "moneda": "ARS",
-            "entradas_online_desde": "0.00",
-            "lugar": "REFI, Rosario, Santa Fe",
-            "lugar_responsive": "Rosario",
-            "activar_boton_personalizado": 0,
-            "texto_boton": "",
-            "color_boton_personalizado": "#28a745",
-            "url_externa": "",
-            "slug": "TANGO-A-LA-CACEROLA-"
-        },
-        {
             "imagen_home": "/media/imagenes_eventos/home/2024/07/rrrrr.jpeg",
             "nombre": "ART\u00cdCULO 19, EL EXPERIMENTO - TEATRO EN REFI",
             "unica_fecha": true,
@@ -135,6 +120,21 @@
             "color_boton_personalizado": "#28a745",
             "url_externa": "",
             "slug": "NORMAL-ROCK"
+        },
+        {
+            "imagen_home": "/media/imagenes_eventos/home/2024/06/tango.jpeg",
+            "nombre": "TANGO A LA CACEROLA",
+            "unica_fecha": false,
+            "desde_fecha": "21/07/2024, 20:30",
+            "moneda": "ARS",
+            "entradas_online_desde": "0.00",
+            "lugar": "REFI, Rosario, Santa Fe",
+            "lugar_responsive": "Rosario",
+            "activar_boton_personalizado": 0,
+            "texto_boton": "",
+            "color_boton_personalizado": "#28a745",
+            "url_externa": "",
+            "slug": "TANGO-A-LA-CACEROLA-"
         },
         {
             "imagen_home": "/media/imagenes_eventos/home/2024/06/ROMI.jpeg",
@@ -182,6 +182,21 @@
             "slug": "TROJANOS---LA-SEMILLA"
         },
         {
+            "imagen_home": "/media/imagenes_eventos/home/2024/07/puro.jpeg",
+            "nombre": "PUROFEST",
+            "unica_fecha": true,
+            "desde_fecha": "03/08/2024, 20:00",
+            "moneda": "ARS",
+            "entradas_online_desde": "3500.00",
+            "lugar": "REFI, Rosario, Santa Fe",
+            "lugar_responsive": "Rosario",
+            "activar_boton_personalizado": 0,
+            "texto_boton": "",
+            "color_boton_personalizado": "#28a745",
+            "url_externa": "",
+            "slug": "PUROFEST"
+        },
+        {
             "imagen_home": "/media/imagenes_eventos/home/2024/07/sumo.jpeg",
             "nombre": "FUCK YOU",
             "unica_fecha": true,
@@ -212,7 +227,7 @@
             "slug": "MECHAYRXMEO"
         }
     ],
-    "cantidad_total_fechas_activas": 14,
+    "cantidad_total_fechas_activas": 15,
     "muestra_decimales": false,
     "mostrar_precio_desde": true,
     "moneda": "ARS",
