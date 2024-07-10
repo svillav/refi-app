@@ -2,15 +2,13 @@ import React from 'react';
 import './Contact.scss';
 import { Container, Row, Col } from 'react-bootstrap';
 
-import mapImg from '../assets/refi_ubi.png'
-
 const SomosRefi = () => {
 
   return (
     <section id="contacto" className="contact-section">
       <Container className="contact-info">
-        <Row className="flex-md-row flex-column">
-          <Col lg={6} className="d-flex flex-column align-items-center">
+        <Row className="flex-md-row flex-column d-flex justify-content-center align-items-center">
+          <Col lg={6} className="d-flex flex-column align-items-center contact-details-container">
             <h2 className="section-title">CONTACTANOS</h2>
             <div className="contact-details">
               <div className="item">
@@ -58,15 +56,11 @@ const SomosRefi = () => {
               </div>
             </div>
           </Col>
-          <Col lg={6} className="d-flex align-items-center">
-            <div className="map">
-              <a
-                href="https://www.google.com/maps/search/Refi/@-32.9249492,-60.6787333,16z/data=!3m1!4b1?entry=ttu"
-                target="_blank"
-              >
-                <img src={mapImg} alt="Ubicación de REFI" />
-              </a>
-            </div>
+          <Col lg={6} className="d-flex justify-content-center align-items-center">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3348.9868802550213!2d-60.67528662543468!3d-32.92494487079068!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95b6553e6c87480d%3A0x5bba68c325edae2!2sRefi%20Comunidad!5e0!3m2!1ses-419!2sar!4v1720547560659!5m2!1ses-419!2sar"
+              loading="lazy"
+              referrerPolicy="no-referrer-when-downgrade">
+            </iframe>
           </Col>
         </Row>
       </Container>

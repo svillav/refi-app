@@ -59,6 +59,29 @@
     margin: 1rem 0;
   }
 
+  .text::-webkit-scrollbar {
+    width: 12px;
+  }
+
+  .text::-webkit-scrollbar-track {
+    background: #000000;
+  }
+
+  .text::-webkit-scrollbar-thumb {
+    background-color: #888;
+    border-radius: 10px;
+    border: 3px solid #000000;
+  }
+
+  .text::-webkit-scrollbar-thumb:hover {
+    background: #555;
+  }
+
+  .text {
+    scrollbar-width: thin;
+    scrollbar-color: #888 #000000;
+  }
+
   p {
     font-family: "Montserrat", sans-serif;
     font-size: 1.1rem;

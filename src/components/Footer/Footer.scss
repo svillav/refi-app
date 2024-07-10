@@ -14,7 +14,7 @@
     font-size: 0.7rem;
 
     div {
-      width: 60px;
+      width: 40px;
 
       img {
         width: 1.5rem;
@@ -30,6 +30,30 @@
 
     img {
       width: 4rem;
+    }
+  }
+}
+
+.credits {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #000000;
+  padding: 0 0 1.5rem;
+
+  .details {
+    display: flex;
+    flex-direction: column;
+    font-size: 0.7rem;
+
+    span {
+      text-align: center;
+      color: #ce1818;
+
+      a {
+        color: #a2a2a2;
+        text-decoration: none;
+      }
     }
   }
 }
