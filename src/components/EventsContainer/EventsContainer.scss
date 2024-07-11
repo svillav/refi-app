@@ -4,9 +4,14 @@
 
   .section-title {
     font-size: 2rem;
-    margin-bottom: 20px;
     font-family: "Dela Gothic One", sans-serif;
     text-transform: uppercase;
+  }
+
+  .input-group {
+    width: 90%;
+    max-width: 800px;
+    margin: 1.5rem auto 2rem;
   }
 
   h4 {
