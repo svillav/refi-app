@@ -30,26 +30,28 @@ const EventsContainer = () => {
           onChange={(e) => setSearchTerm(e.target.value)}
         />
       </InputGroup>
-      <div className="event-cards">
-        {
-          eventsArray.length > 0 ? (
-            eventsArray.map((event, index) => (
-              <Event
-                key={index}
-                imageUrl={getImageUrl(event.slug)}
-                title={event.nombre}
-                date={event.desde_fecha}
-                location={event.lugar}
-                price={event.entradas_online_desde}
-                ticketUrl={event.slug}
-                ticketMessage="CONSEGUIR ENTRADAS"
-                id={event.slug}
-              />
-            ))
-          ) : (
-            <p>No hay eventos con ese nombre.</p>
-          )
-        }
+      <div className="event-slider">
+        <div className="event-slider-inner">
+          {
+            eventsArray.length > 0 ? (
+              eventsArray.map((event, index) => (
+                <Event
+                  key={index}
+                  imageUrl={getImageUrl(event.slug)}
+                  title={event.nombre}
+                  date={event.desde_fecha}
+                  location={event.lugar}
+                  price={event.entradas_online_desde}
+                  ticketUrl={event.slug}
+                  ticketMessage="CONSEGUIR ENTRADAS"
+                  id={event.slug}
+                />
+              ))
+            ) : (
+              <p>No hay eventos con ese nombre.</p>
+            )
+          }
+        </div>
       </div>
     </section>
   );
