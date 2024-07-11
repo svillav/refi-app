@@ -182,21 +182,6 @@
             "slug": "TROJANOS---LA-SEMILLA"
         },
         {
-            "imagen_home": "/media/imagenes_eventos/home/2024/07/%C3%B1%C3%B1%C3%B1%C3%B1.jpeg",
-            "nombre": "\u00d1\u00d1\u00d1\u00d1",
-            "unica_fecha": true,
-            "desde_fecha": "02/08/2024, 21:00",
-            "moneda": "ARS",
-            "entradas_online_desde": "5000.00",
-            "lugar": "REFI, Rosario, Santa Fe",
-            "lugar_responsive": "Rosario",
-            "activar_boton_personalizado": 0,
-            "texto_boton": "",
-            "color_boton_personalizado": "#28a745",
-            "url_externa": "",
-            "slug": "NNNN"
-        },
-        {
             "imagen_home": "/media/imagenes_eventos/home/2024/07/puro.jpeg",
             "nombre": "PUROFEST",
             "unica_fecha": true,
@@ -210,6 +195,21 @@
             "color_boton_personalizado": "#28a745",
             "url_externa": "",
             "slug": "PUROFEST"
+        },
+        {
+            "imagen_home": "/media/imagenes_eventos/home/2024/07/%C3%B1%C3%B1%C3%B1%C3%B1.jpeg",
+            "nombre": "\u00d1\u00d1\u00d1\u00d1",
+            "unica_fecha": true,
+            "desde_fecha": "09/08/2024, 21:00",
+            "moneda": "ARS",
+            "entradas_online_desde": "5000.00",
+            "lugar": "REFI, Rosario, Santa Fe",
+            "lugar_responsive": "Rosario",
+            "activar_boton_personalizado": 0,
+            "texto_boton": "",
+            "color_boton_personalizado": "#28a745",
+            "url_externa": "",
+            "slug": "NNNN"
         },
         {
             "imagen_home": "/media/imagenes_eventos/home/2024/07/sumo.jpeg",
@@ -227,12 +227,27 @@
             "slug": "FUCK-YOU"
         },
         {
+            "imagen_home": "/media/imagenes_eventos/home/2024/07/CRACK.jpeg",
+            "nombre": "CRACK BANG BOOM PARTY",
+            "unica_fecha": true,
+            "desde_fecha": "17/08/2024, 22:00",
+            "moneda": "ARS",
+            "entradas_online_desde": "5000.00",
+            "lugar": "REFI, Rosario, Santa Fe",
+            "lugar_responsive": "Rosario",
+            "activar_boton_personalizado": 0,
+            "texto_boton": "",
+            "color_boton_personalizado": "#28a745",
+            "url_externa": "",
+            "slug": "CRACK-BANG-BOOM-PARTY"
+        },
+        {
             "imagen_home": "/media/imagenes_eventos/home/2024/07/macha_.jpeg",
             "nombre": "MECHAYRXMEO",
             "unica_fecha": true,
             "desde_fecha": "23/08/2024, 21:00",
             "moneda": "ARS",
-            "entradas_online_desde": "5000.00",
+            "entradas_online_desde": "6000.00",
             "lugar": "REFI, Rosario, Santa Fe",
             "lugar_responsive": "Rosario",
             "activar_boton_personalizado": 0,
@@ -242,7 +257,7 @@
             "slug": "MECHAYRXMEO"
         }
     ],
-    "cantidad_total_fechas_activas": 16,
+    "cantidad_total_fechas_activas": 17,
     "muestra_decimales": false,
     "mostrar_precio_desde": true,
     "moneda": "ARS",
