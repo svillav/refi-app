@@ -2,36 +2,6 @@
     "media_url": "/media/",
     "eventos": [
         {
-            "imagen_home": "/media/imagenes_eventos/home/2024/06/bana.jpeg",
-            "nombre": "TALLARIN CON BANANA",
-            "unica_fecha": true,
-            "desde_fecha": "10/07/2024, 14:30",
-            "moneda": "ARS",
-            "entradas_online_desde": "4000.00",
-            "lugar": "REFI, Rosario, Santa Fe",
-            "lugar_responsive": "Rosario",
-            "activar_boton_personalizado": 0,
-            "texto_boton": "",
-            "color_boton_personalizado": "#28a745",
-            "url_externa": "",
-            "slug": "TALLARIN-CON-BANANA"
-        },
-        {
-            "imagen_home": "/media/imagenes_eventos/home/2024/07/fran.jpeg",
-            "nombre": "GASTRONOMIA VINO Y CINE",
-            "unica_fecha": false,
-            "desde_fecha": "10/07/2024, 20:30",
-            "moneda": "ARS",
-            "entradas_online_desde": "0.00",
-            "lugar": "REFI, Rosario, Santa Fe",
-            "lugar_responsive": "Rosario",
-            "activar_boton_personalizado": 0,
-            "texto_boton": "",
-            "color_boton_personalizado": "#28a745",
-            "url_externa": "",
-            "slug": "GASTRONOMIA-VINO-Y-CINE"
-        },
-        {
             "imagen_home": "/media/imagenes_eventos/home/2024/06/frank.jpeg",
             "nombre": "FRANKENSTEIN",
             "unica_fecha": true,
@@ -77,6 +47,21 @@
             "slug": "TNT-RUIDO"
         },
         {
+            "imagen_home": "/media/imagenes_eventos/home/2024/07/fran.jpeg",
+            "nombre": "GASTRONOMIA VINO Y CINE",
+            "unica_fecha": false,
+            "desde_fecha": "17/07/2024, 20:30",
+            "moneda": "ARS",
+            "entradas_online_desde": "0.00",
+            "lugar": "REFI, Rosario, Santa Fe",
+            "lugar_responsive": "Rosario",
+            "activar_boton_personalizado": 0,
+            "texto_boton": "",
+            "color_boton_personalizado": "#28a745",
+            "url_externa": "",
+            "slug": "GASTRONOMIA-VINO-Y-CINE"
+        },
+        {
             "imagen_home": "/media/imagenes_eventos/home/2024/07/rrrrr.jpeg",
             "nombre": "ART\u00cdCULO 19, EL EXPERIMENTO - TEATRO EN REFI",
             "unica_fecha": true,
@@ -90,6 +75,21 @@
             "color_boton_personalizado": "#28a745",
             "url_externa": "",
             "slug": "ARTICULO-19--EL-EXPERIMENTO---TEATRO-EN-REFI"
+        },
+        {
+            "imagen_home": "/media/imagenes_eventos/home/2024/07/vaca.jpeg",
+            "nombre": "TALLARIN CON BANANA",
+            "unica_fecha": true,
+            "desde_fecha": "19/07/2024, 14:30",
+            "moneda": "ARS",
+            "entradas_online_desde": "4000.00",
+            "lugar": "REFI, Rosario, Santa Fe",
+            "lugar_responsive": "Rosario",
+            "activar_boton_personalizado": 0,
+            "texto_boton": "",
+            "color_boton_personalizado": "#28a745",
+            "url_externa": "",
+            "slug": "TALLARIN-CON-BANANA"
         },
         {
             "imagen_home": "/media/imagenes_eventos/home/2024/06/session.jpeg",
@@ -182,6 +182,21 @@
             "slug": "TROJANOS---LA-SEMILLA"
         },
         {
+            "imagen_home": "/media/imagenes_eventos/home/2024/07/%C3%B1%C3%B1%C3%B1%C3%B1.jpeg",
+            "nombre": "\u00d1\u00d1\u00d1\u00d1",
+            "unica_fecha": true,
+            "desde_fecha": "02/08/2024, 21:00",
+            "moneda": "ARS",
+            "entradas_online_desde": "5000.00",
+            "lugar": "REFI, Rosario, Santa Fe",
+            "lugar_responsive": "Rosario",
+            "activar_boton_personalizado": 0,
+            "texto_boton": "",
+            "color_boton_personalizado": "#28a745",
+            "url_externa": "",
+            "slug": "NNNN"
+        },
+        {
             "imagen_home": "/media/imagenes_eventos/home/2024/07/puro.jpeg",
             "nombre": "PUROFEST",
             "unica_fecha": true,
@@ -227,7 +242,7 @@
             "slug": "MECHAYRXMEO"
         }
     ],
-    "cantidad_total_fechas_activas": 15,
+    "cantidad_total_fechas_activas": 16,
     "muestra_decimales": false,
     "mostrar_precio_desde": true,
     "moneda": "ARS",
