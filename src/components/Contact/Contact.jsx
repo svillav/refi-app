@@ -9,7 +9,7 @@ const SomosRefi = () => {
       <Container className="contact-info">
         <Row className="flex-md-row flex-column d-flex justify-content-center align-items-center">
           <Col lg={6} className="d-flex flex-column align-items-center contact-details-container">
-            <h2 className="section-title">CONTACTANOS</h2>
+            <h2 className="section-title">CONTACTANOS :)</h2>
             <div className="contact-details">
               <div className="item">
                 <div>

@@ -2,36 +2,6 @@
     "media_url": "/media/",
     "eventos": [
         {
-            "imagen_home": "/media/imagenes_eventos/home/2024/06/frank.jpeg",
-            "nombre": "FRANKENSTEIN",
-            "unica_fecha": true,
-            "desde_fecha": "11/07/2024, 14:30",
-            "moneda": "ARS",
-            "entradas_online_desde": "4000.00",
-            "lugar": "REFI, Rosario, Santa Fe",
-            "lugar_responsive": "Rosario",
-            "activar_boton_personalizado": 0,
-            "texto_boton": "",
-            "color_boton_personalizado": "#28a745",
-            "url_externa": "",
-            "slug": "FRANKENSTEIN"
-        },
-        {
-            "imagen_home": "/media/imagenes_eventos/home/2024/06/sono.jpeg",
-            "nombre": "SONOFILMICA",
-            "unica_fecha": true,
-            "desde_fecha": "12/07/2024, 21:00",
-            "moneda": "ARS",
-            "entradas_online_desde": "4000.00",
-            "lugar": "REFI, Rosario, Santa Fe",
-            "lugar_responsive": "Rosario",
-            "activar_boton_personalizado": 0,
-            "texto_boton": "",
-            "color_boton_personalizado": "#28a745",
-            "url_externa": "",
-            "slug": "SONOFILMICA"
-        },
-        {
             "imagen_home": "/media/imagenes_eventos/home/2024/07/tnt.jpeg",
             "nombre": "TNT RUIDO",
             "unica_fecha": true,
@@ -47,7 +17,7 @@
             "slug": "TNT-RUIDO"
         },
         {
-            "imagen_home": "/media/imagenes_eventos/home/2024/07/fran.jpeg",
+            "imagen_home": "/media/imagenes_eventos/home/2024/07/calle.jpeg",
             "nombre": "GASTRONOMIA VINO Y CINE",
             "unica_fecha": false,
             "desde_fecha": "17/07/2024, 20:30",
@@ -120,6 +90,21 @@
             "color_boton_personalizado": "#28a745",
             "url_externa": "",
             "slug": "NORMAL-ROCK"
+        },
+        {
+            "imagen_home": "/media/imagenes_eventos/home/2024/07/otro.jpeg",
+            "nombre": "OTRO CLUB DE CINE",
+            "unica_fecha": true,
+            "desde_fecha": "21/07/2024, 15:00",
+            "moneda": "ARS",
+            "entradas_online_desde": "1500.00",
+            "lugar": "REFI, Rosario, Santa Fe",
+            "lugar_responsive": "Rosario",
+            "activar_boton_personalizado": 0,
+            "texto_boton": "",
+            "color_boton_personalizado": "#28a745",
+            "url_externa": "",
+            "slug": "OTRO-CLUB-DE-CINE"
         },
         {
             "imagen_home": "/media/imagenes_eventos/home/2024/06/tango.jpeg",
@@ -270,6 +255,21 @@
             "color_boton_personalizado": "#28a745",
             "url_externa": "",
             "slug": "MALANDRO"
+        },
+        {
+            "imagen_home": "/media/imagenes_eventos/home/2024/07/faunos.jpeg",
+            "nombre": "107 FAUNO",
+            "unica_fecha": true,
+            "desde_fecha": "31/08/2024, 21:00",
+            "moneda": "ARS",
+            "entradas_online_desde": "5000.00",
+            "lugar": "REFI, Rosario, Santa Fe",
+            "lugar_responsive": "Rosario",
+            "activar_boton_personalizado": 0,
+            "texto_boton": "",
+            "color_boton_personalizado": "#28a745",
+            "url_externa": "",
+            "slug": "107-FAUNO"
         }
     ],
     "cantidad_total_fechas_activas": 18,
