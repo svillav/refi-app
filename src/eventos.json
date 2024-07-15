@@ -2,21 +2,6 @@
     "media_url": "/media/",
     "eventos": [
         {
-            "imagen_home": "/media/imagenes_eventos/home/2024/07/tnt.jpeg",
-            "nombre": "TNT RUIDO",
-            "unica_fecha": true,
-            "desde_fecha": "13/07/2024, 21:00",
-            "moneda": "ARS",
-            "entradas_online_desde": "7000.00",
-            "lugar": "REFI, Rosario, Santa Fe",
-            "lugar_responsive": "Rosario",
-            "activar_boton_personalizado": 0,
-            "texto_boton": "",
-            "color_boton_personalizado": "#28a745",
-            "url_externa": "",
-            "slug": "TNT-RUIDO"
-        },
-        {
             "imagen_home": "/media/imagenes_eventos/home/2024/07/calle.jpeg",
             "nombre": "GASTRONOMIA VINO Y CINE",
             "unica_fecha": false,
@@ -272,7 +257,7 @@
             "slug": "107-FAUNO"
         }
     ],
-    "cantidad_total_fechas_activas": 18,
+    "cantidad_total_fechas_activas": 17,
     "muestra_decimales": false,
     "mostrar_precio_desde": true,
     "moneda": "ARS",
