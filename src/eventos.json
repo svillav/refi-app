@@ -137,6 +137,21 @@
             "slug": "FESTI-CCC"
         },
         {
+            "imagen_home": "/media/imagenes_eventos/home/2024/07/LA-COMUNIDAD-VENCE-AL-FRIO.jpeg",
+            "nombre": "LA COMUNIDAD VENCE AL FRIO",
+            "unica_fecha": true,
+            "desde_fecha": "28/07/2024, 14:00",
+            "moneda": null,
+            "entradas_online_desde": "2000.00",
+            "lugar": "REFI, Rosario, Santa Fe",
+            "lugar_responsive": "Rosario",
+            "activar_boton_personalizado": 0,
+            "texto_boton": "",
+            "color_boton_personalizado": "#28a745",
+            "url_externa": "",
+            "slug": "LA-COMUNIDAD-VENCE-AL-FRIO"
+        },
+        {
             "imagen_home": "/media/imagenes_eventos/home/2024/07/SEMILLA.jpeg",
             "nombre": "TROJANOS + LA SEMILLA",
             "unica_fecha": true,
@@ -180,6 +195,21 @@
             "color_boton_personalizado": "#28a745",
             "url_externa": "",
             "slug": "NNNN"
+        },
+        {
+            "imagen_home": "/media/imagenes_eventos/home/2024/07/pe%C3%B1a.jpeg",
+            "nombre": "GRAN PE\u00d1A DE BARRIO 2DA EDICI\u00d3N",
+            "unica_fecha": true,
+            "desde_fecha": "11/08/2024, 13:00",
+            "moneda": "ARS",
+            "entradas_online_desde": "5000.00",
+            "lugar": "REFI, Rosario, Santa Fe",
+            "lugar_responsive": "Rosario",
+            "activar_boton_personalizado": 0,
+            "texto_boton": "",
+            "color_boton_personalizado": "#28a745",
+            "url_externa": "",
+            "slug": "GRAN-PENA-DE-BARRIO-2DA-EDICION"
         },
         {
             "imagen_home": "/media/imagenes_eventos/home/2024/07/sumo.jpeg",
@@ -240,24 +270,9 @@
             "color_boton_personalizado": "#28a745",
             "url_externa": "",
             "slug": "MALANDRO"
-        },
-        {
-            "imagen_home": "/media/imagenes_eventos/home/2024/07/faunos.jpeg",
-            "nombre": "107 FAUNO",
-            "unica_fecha": true,
-            "desde_fecha": "31/08/2024, 21:00",
-            "moneda": "ARS",
-            "entradas_online_desde": "5000.00",
-            "lugar": "REFI, Rosario, Santa Fe",
-            "lugar_responsive": "Rosario",
-            "activar_boton_personalizado": 0,
-            "texto_boton": "",
-            "color_boton_personalizado": "#28a745",
-            "url_externa": "",
-            "slug": "107-FAUNO"
         }
     ],
-    "cantidad_total_fechas_activas": 17,
+    "cantidad_total_fechas_activas": 19,
     "muestra_decimales": false,
     "mostrar_precio_desde": true,
     "moneda": "ARS",
