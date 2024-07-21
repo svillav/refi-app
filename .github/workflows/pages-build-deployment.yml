@@ -31,6 +31,11 @@ jobs:
       - name: Build project
         run: npm run build
 
+      - name: Configure Git
+        run: |
+          git config --global user.name "Santiago Villa"
+          git config --global user.email "santiagovillavega@gmail.com"
+
       - name: Copy CNAME file
         run: npx cpx 'CNAME' build/
 
