@@ -42,4 +42,4 @@ jobs:
         env:
           GH_TOKEN: ${{ secrets.GH_TOKEN }}
         run: |
-          npx gh-pages -d build --repo https://github.com/${{ github.repository }} --branch gh-pages --token $GH_TOKEN
+          npx gh-pages -d build --repo https://github.com/${{ github.repository }} --branch gh-pages
