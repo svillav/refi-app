@@ -6,8 +6,7 @@ on:
       - develop
   schedule:
     - cron: '0 8 * * *'
-    - cron: '0 16 * * *'
-    - cron: '0 00 * * *'
+    - cron: '0 20 * * *'
 
 jobs:
   build-and-deploy:
@@ -37,7 +36,10 @@ jobs:
           git config --global user.email "actions@github.com"
 
       - name: Copy CNAME file
-        run: npx cpx 'CNAME' build/
+        run: cp CNAME build/
 
       - name: Deploy to GitHub Pages
-        run: npm run deploy
+        run: |
+          npm run deploy
+        env:
+          GH_TOKEN: ${{ secrets.GH_TOKEN }}
