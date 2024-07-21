@@ -29,7 +29,7 @@
     "build": "webpack --mode production",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "predeploy": "npm run build",
+    "predeploy": "npm run build && cpx 'CNAME' build/",
     "deploy": "gh-pages -d build",
     "scrape-events": "node scrapeEvents.js"
   },
@@ -56,6 +56,7 @@
     "@babel/preset-env": "^7.24.7",
     "@babel/preset-react": "^7.24.7",
     "babel-loader": "^9.1.3",
+    "cpx": "^1.5.0",
     "css-loader": "^7.1.2",
     "file-loader": "^6.2.0",
     "gh-pages": "^6.1.1",

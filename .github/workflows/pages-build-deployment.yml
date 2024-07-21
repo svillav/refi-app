@@ -2,8 +2,9 @@ name: Scheduled Scrape and Deployment
 
 on:
   schedule:
-    - cron: '0 8 * * *'  # Ejecutar a las 08:00 (UTC) todos los días
-    - cron: '0 20 * * *' # Ejecutar a las 20:00 (UTC) todos los días
+    - cron: '0 8 * * *'
+    - cron: '0 16 * * *'
+    - cron: '0 00 * * *'
 
 jobs:
   build-and-deploy:
@@ -26,6 +27,9 @@ jobs:
 
       - name: Build project
         run: npm run build
+
+      - name: Copy CNAME file
+        run: npx cpx 'CNAME' build/
 
       - name: Deploy to GitHub Pages
         run: npm run deploy
