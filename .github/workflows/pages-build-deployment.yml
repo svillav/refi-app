@@ -6,7 +6,8 @@ on:
       - develop
   schedule:
     - cron: '0 8 * * *'
-    - cron: '0 20 * * *'
+    - cron: '0 16 * * *'
+    - cron: '0 00 * * *'
 
 jobs:
   build-and-deploy:
@@ -32,14 +33,20 @@ jobs:
 
       - name: Configure Git
         run: |
-          git config --global user.name "Santiago Villa"
-          git config --global user.email "santiagovillavega@gmail.com"
+          git config --global user.name "GitHub Actions"
+          git config --global user.email "actions@github.com"
 
       - name: Copy CNAME file
-        run: cp CNAME build/
+        run: npx cpx 'CNAME' build/
 
       - name: Deploy to GitHub Pages
         env:
           GH_TOKEN: ${{ secrets.GH_TOKEN }}
         run: |
-          npx gh-pages -d build --repo https://github.com/${{ github.repository }} --branch gh-pages
+          cd build
+          git init
+          git remote add origin https://github.com/svillav/refi-app.git
+          git checkout -b gh-pages
+          git add .
+          git commit -m "Deploy to GitHub Pages"
+          git push --force origin gh-pages
