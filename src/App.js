@@ -17,7 +17,7 @@ function App() {
       <EventsContainer />
       <SomosRefi />
       <Contact />
-      <Periodico />
+      {/* <Periodico /> */}
       {/* <Galeria /> */}
       <Separator />
       <ToUpButton />
