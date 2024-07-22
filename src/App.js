@@ -14,10 +14,10 @@ function App() {
     <React.Fragment>
       <Header />
       <Separator />
-      <Periodico />
       <EventsContainer />
       <SomosRefi />
       <Contact />
+      <Periodico />
       {/* <Galeria /> */}
       <Separator />
       <ToUpButton />

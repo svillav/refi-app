@@ -7,7 +7,7 @@ const Footer = () => {
     <React.Fragment>
       <footer className="site-footer">
         <div className="footer-info">
-          <div>
+          <div className="icon">
             <svg
               viewBox="0 0 24 24"
               fill="none"
