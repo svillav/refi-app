@@ -5,7 +5,7 @@ import Periodico from './components/Periodico/Periodico';
 import EventsContainer from './components/EventsContainer/EventsContainer';
 import SomosRefi from './components/SomosRefi/SomosRefi';
 import Contact from './components/Contact/Contact';
-import Galeria from './components/Galeria/Galeria';
+// import Galeria from './components/Galeria/Galeria';
 import ToUpButton from './components/ToUpButton/ToUpButton';
 import Footer from './components/Footer/Footer';
 
@@ -18,7 +18,7 @@ function App() {
       <EventsContainer />
       <SomosRefi />
       <Contact />
-      <Galeria />
+      {/* <Galeria /> */}
       <Separator />
       <ToUpButton />
       <Footer />

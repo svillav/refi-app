@@ -16,10 +16,6 @@
     flex-direction: column;
     align-items: center;
 
-    // .image {
-    //   width: 40rem;
-    // }
-
     .image img {
       width: 80%;
       height: auto;
@@ -30,10 +26,10 @@
 
 .text-container {
   position: relative;
-  width: 90%;
   background-color: #000000;
   text-align: center;
-  padding: 2rem;
+  padding: 1.5rem;
+  margin: 0.5rem 0;
 
   h2 {
     font-size: 1.5em;
