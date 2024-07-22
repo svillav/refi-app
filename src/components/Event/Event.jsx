@@ -56,7 +56,11 @@ const Event = ({
       data-target={`#${collapseId}`}
       aria-expanded="false"
       aria-controls={collapseId}>
+      <div className="fecha">
+        {fecha}
+      </div>
       <img src={imageUrl} alt="Evento" />
+      <div className="ver-info">VER INFO</div>
       <h3>{title}</h3>
       <div className="collapse" id={collapseId}>
         <div className="card-details-container">
