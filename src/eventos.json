@@ -2,36 +2,6 @@
   "media_url": "/media/",
   "eventos": [
     {
-      "imagen_home": "/media/imagenes_eventos/home/2024/07/otro.jpeg",
-      "nombre": "OTRO CLUB DE CINE",
-      "unica_fecha": true,
-      "desde_fecha": "21/07/2024, 15:00",
-      "moneda": "ARS",
-      "entradas_online_desde": "1500.00",
-      "lugar": "REFI, Rosario, Santa Fe",
-      "lugar_responsive": "Rosario",
-      "activar_boton_personalizado": 0,
-      "texto_boton": "",
-      "color_boton_personalizado": "#28a745",
-      "url_externa": "",
-      "slug": "OTRO-CLUB-DE-CINE"
-    },
-    {
-      "imagen_home": "/media/imagenes_eventos/home/2024/06/tango.jpeg",
-      "nombre": "TANGO A LA CACEROLA",
-      "unica_fecha": false,
-      "desde_fecha": "21/07/2024, 20:30",
-      "moneda": "ARS",
-      "entradas_online_desde": "0.00",
-      "lugar": "REFI, Rosario, Santa Fe",
-      "lugar_responsive": "Rosario",
-      "activar_boton_personalizado": 0,
-      "texto_boton": "",
-      "color_boton_personalizado": "#28a745",
-      "url_externa": "",
-      "slug": "TANGO-A-LA-CACEROLA-"
-    },
-    {
       "imagen_home": "/media/imagenes_eventos/home/2024/07/dracula_.jpeg",
       "nombre": "GASTRONOMIA VINO Y CINE",
       "unica_fecha": false,
@@ -92,6 +62,21 @@
       "slug": "LA-COMUNIDAD-VENCE-AL-FRIO"
     },
     {
+      "imagen_home": "/media/imagenes_eventos/home/2024/06/tango.jpeg",
+      "nombre": "TANGO A LA CACEROLA",
+      "unica_fecha": true,
+      "desde_fecha": "28/07/2024, 20:30",
+      "moneda": "ARS",
+      "entradas_online_desde": "0.00",
+      "lugar": "REFI, Rosario, Santa Fe",
+      "lugar_responsive": "Rosario",
+      "activar_boton_personalizado": 0,
+      "texto_boton": "",
+      "color_boton_personalizado": "#28a745",
+      "url_externa": "",
+      "slug": "TANGO-A-LA-CACEROLA-"
+    },
+    {
       "imagen_home": "/media/imagenes_eventos/home/2024/07/SEMILLA.jpeg",
       "nombre": "TROJANOS + LA SEMILLA",
       "unica_fecha": true,
@@ -150,6 +135,21 @@
       "color_boton_personalizado": "#28a745",
       "url_externa": "",
       "slug": "GRAN-PENA-DE-BARRIO-2DA-EDICION"
+    },
+    {
+      "imagen_home": "/media/imagenes_eventos/home/2024/07/LOS-SUTOTTOS.jpeg",
+      "nombre": "LOS SUTOTTOS",
+      "unica_fecha": true,
+      "desde_fecha": "11/08/2024, 20:30",
+      "moneda": null,
+      "entradas_online_desde": "7000.00",
+      "lugar": "REFI, Rosario, Santa Fe",
+      "lugar_responsive": "Rosario",
+      "activar_boton_personalizado": 0,
+      "texto_boton": "",
+      "color_boton_personalizado": "#28a745",
+      "url_externa": "",
+      "slug": "LOS-SUTOTTOS"
     },
     {
       "imagen_home": "/media/imagenes_eventos/home/2024/07/sumo.jpeg",
