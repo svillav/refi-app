@@ -48,7 +48,7 @@
     height: auto;
 
     &:hover {
-      box-shadow: 0 0 23px rgb(39 39 39);
+      box-shadow: 0 0 10px rgb(39 39 39);
     }
   }
 
@@ -109,6 +109,21 @@
     border: 1px solid rgb(0, 0, 0);
     color: #000000;
     font-family: "Dela Gothic One", sans-serif;
-    font-size: 0.8rem;
+    font-size: 0.7rem;
+    background-color: black;
+
+    div {
+      color: white;
+      border: 1px solid #8c8c8c;
+      padding: 0 0.1rem;
+      margin: 0 0 1rem;
+      border-radius: 4px;
+      width: 7rem;
+
+      &:hover {
+        background-color: white;
+        color: black;
+      }
+    }
   }
 }

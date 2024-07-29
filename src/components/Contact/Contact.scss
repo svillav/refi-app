@@ -1,8 +1,5 @@
 .contact-section {
-  background-image: url("../assets/background_contacto.png");
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
+  background-color: black;
   color: white;
 
   .contact-info {
@@ -10,23 +7,21 @@
 
     .contact-details-container {
       background-color: black;
-      max-width: 400px;
-      border: 1px solid #5b5b5b;
       border-radius: 6px;
-      padding: 1rem;
-      margin: 1rem 0;
+      padding: 1rem 0;
 
       .section-title {
-        font-size: 1.2rem;
+        font-size: 2rem;
         font-family: "Dela Gothic One", sans-serif;
-        background-color: #000000;
-        margin: 0.5rem;
+
+        @media screen and (max-width: 425px) {
+          font-size: 1.5rem;
+        }
       }
   
       .contact-details {
         font-family: "Montserrat", sans-serif;
-        background-color: #000000;
-        margin: 0.5rem;
+        margin: 1rem 0;
     
         .item {
           display: flex;
@@ -44,7 +39,11 @@
           }
     
           span {
-            font-size: 1rem;
+            font-size: 1.5rem;
+
+            @media screen and (max-width: 425px) {
+              font-size: 1rem;
+            }
     
             a {
               color: white;

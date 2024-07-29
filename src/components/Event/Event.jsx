@@ -18,7 +18,7 @@ const Event = ({
   const [fecha, hora] = date.split(", ");
 
   const formatearPrecio = (precio) => {
-    if(precio === '0.00') {
+    if (precio === '0.00') {
       return 'Ingreso gratuito';
     }
     return `$${Math.round(precio)}`;
@@ -28,7 +28,7 @@ const Event = ({
     if (!fecha.includes('/')) {
       return fecha;
     }
-    
+
     const [day, month, year] = fecha.split('/').map(Number);
     const date = new Date(year, month - 1, day);
     const options = { weekday: 'long', day: 'numeric', month: 'long' };
@@ -60,7 +60,6 @@ const Event = ({
         {fecha}
       </div>
       <img src={imageUrl} alt="Evento" />
-      <div className="ver-info">VER INFO</div>
       <h3>{title}</h3>
       <div className="collapse" id={collapseId}>
         <div className="card-details-container">
@@ -85,6 +84,11 @@ const Event = ({
               <span>{ticketMessage}</span>
             </a>
           </button>
+        </div>
+      </div>
+      <div className="d-flex justify-content-center ver-info">
+        <div>
+          + INFO
         </div>
       </div>
     </div>
