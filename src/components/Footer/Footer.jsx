@@ -1,10 +1,12 @@
 import React from "react";
 import './Footer.scss';
+import Separator from "../Separator/Separator";
 import footerImg from "../assets/logoreficomunidad.png";
 
 const Footer = () => {
   return (
     <React.Fragment>
+      <Separator />
       <footer className="site-footer">
         <div className="footer-info">
           <div className="icon">

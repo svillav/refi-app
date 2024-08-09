@@ -1,0 +1,42 @@
+.link {
+    &:hover {
+        text-decoration: none;
+    }
+
+    .seccion-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 8px;
+        margin: 1rem;
+        height: 6rem;
+        background-size: cover;
+        background-position: center;
+
+        &:hover {
+            box-shadow: 1px 1px 40px rgba(103, 103, 103, 0.733);
+            background-size: 90%;
+            span {
+                font-size: 2.5rem;
+            }
+        }
+
+        @media screen and (min-width: '768px') {
+            height: 10rem;
+        }
+
+        span {
+            color: white;
+            text-shadow: 0px 1px 10px #00000085;
+            font-family: "Dela Gothic One", sans-serif;
+            font-size: 1.4rem;
+            text-transform: uppercase;
+
+            @media screen and (min-width: '768px') {
+                font-size: 2rem;
+            }
+        }
+
+    }
+
+}

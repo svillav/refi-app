@@ -18,7 +18,7 @@ const EventsContainer = () => {
 
   return (
     <section id="eventos" className="event-section">
-      <h2 className="section-title">Eventos</h2>
+      <h2 className="section-title">Agenda</h2>
       <InputGroup className="input-group">
         <InputGroup.Text>
           <FontAwesomeIcon icon={faSearch} />

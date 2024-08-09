@@ -1,26 +1,25 @@
-// Header.jsx
 import React, { useState } from 'react';
-import { Navbar, Nav, Collapse } from 'react-bootstrap'; // Importa Collapse de react-bootstrap
-import logo from '../assets/logoreficomunidad.png'; // Asegúrate de tener la imagen en la carpeta adecuada
-import './Header.scss'; // Asegúrate de importar tus estilos SCSS si los tienes
+import { Navbar, Nav, Collapse } from 'react-bootstrap';
+import { Link } from 'react-router-dom';
+import logo from '../assets/logoreficomunidad.png';
+import './Header.scss';
 
 const Header = () => {
-  const [open, setOpen] = useState(false); // Estado para controlar el colapso del menú
+  const [open, setOpen] = useState(false);
 
   return (
     <header>
       <Navbar expand="lg">
         <div className="container">
-          <Navbar.Brand href="#">
+          <Navbar.Brand as={Link} to="/">
             <div className="logo">
               <img src={logo} alt="Logo" />
             </div>
           </Navbar.Brand>
-          {/* Botón del toggler */}
           <Navbar.Toggle
             aria-controls="navbarNav"
             aria-label="Toggle navigation"
-            onClick={() => setOpen(!open)} // Cambia el estado del colapso al hacer clic
+            onClick={() => setOpen(!open)}
           >
             <span className="navbar-toggler-icon">
               <svg
@@ -47,14 +46,17 @@ const Header = () => {
               </svg>
             </span>
           </Navbar.Toggle>
-          {/* Contenido del navbar que se colapsa */}
           <Collapse in={open}>
             <div id="navbarNav" className="collapse navbar-collapse">
               <Nav className="ml-auto">
-                <Nav.Link className="nav-link eventos text-center" href="#eventos">Eventos</Nav.Link>
-                <Nav.Link className="nav-link somos-refi text-center" href="#somos-refi">Somos refi</Nav.Link>
-                {/* <Nav.Link className="nav-link galeria text-center" href="#galeria">Galería</Nav.Link> */}
-                <Nav.Link className="nav-link contacto text-center" href="#contacto">Contacto</Nav.Link>
+                <Nav.Link as={Link} to="/" className="nav-link text-center">Home</Nav.Link>
+                <Nav.Link as={Link} to="/agenda" className="nav-link text-center">Agenda</Nav.Link>
+                {/* <Nav.Link as={Link} to="/refi-cafe" className="nav-link text-center">Refi Café</Nav.Link>
+                <Nav.Link as={Link} to="/tienda" className="nav-link text-center">Tienda</Nav.Link>
+                <Nav.Link as={Link} to="/cursos" className="nav-link text-center">Cursos</Nav.Link> */}
+                <Nav.Link as={Link} to="/comunidad" className="nav-link text-center">Comunidad</Nav.Link>
+                {/* <Nav.Link as={Link} to="/galeria" className="nav-link text-center">Galería</Nav.Link> */}
+                {/* <Nav.Link as={Link} to="/como-es-refi" className="nav-link text-center">Cómo es Refi</Nav.Link> */}
               </Nav>
             </div>
           </Collapse>
