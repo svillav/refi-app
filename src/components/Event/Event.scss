@@ -93,7 +93,7 @@
 
   .collapsing,
   .collapse {
-    border: 2px solid rgb(66 66 66);
+    border: 2px solid rgb(17, 17, 17);
     border-radius: 4px;
     position: absolute;
   }
@@ -105,25 +105,32 @@
     z-index: 1;
   }
 
-  .ver-info {
-    border: 1px solid rgb(0, 0, 0);
-    color: #000000;
+}
+
+.ver-info {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  div {
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     font-family: "Dela Gothic One", sans-serif;
     font-size: 0.7rem;
-    background-color: black;
+    color: black;
+    border: 1px solid #46464675;
+    padding: 0 0.1rem;
+    margin: 0 0 1rem;
+    border-radius: 4px;
+    width: 7rem;
+    height: 1.5rem;
 
-    div {
+    &:hover {
+      background-color: black;
       color: white;
-      border: 1px solid #8c8c8c;
-      padding: 0 0.1rem;
-      margin: 0 0 1rem;
-      border-radius: 4px;
-      width: 7rem;
-
-      &:hover {
-        background-color: white;
-        color: black;
-      }
+      cursor: pointer;
     }
   }
 }
