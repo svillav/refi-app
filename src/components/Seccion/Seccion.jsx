@@ -2,8 +2,8 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import './Seccion.scss';
 
-const Seccion = ({ name, href, backgroundImage, fontColor }) => {
-console.log("font color", fontColor);
+const Seccion = ({ name, href, backgroundImage }) => {
+
   return (
     <Link className="link" to={href}>
       <div className="seccion-container"
