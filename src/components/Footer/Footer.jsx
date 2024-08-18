@@ -45,7 +45,7 @@ const Footer = () => {
           <img src={footerImg} alt="REFI Logo" />
         </div>
       </footer>
-      <div className="credits">
+      {/* <div className="credits">
         <div className="details">
           <span>
             <a href="https://www.instagram.com/luuvilla.v/" target="_blank">
@@ -60,7 +60,7 @@ const Footer = () => {
             </a>
           </span>
         </div>
-      </div>
+      </div> */}
     </React.Fragment>
   )
 }

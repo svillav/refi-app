@@ -7,7 +7,7 @@ const Separator = () => {
 
   return (
     <section className="separador">
-      <img src={refiImage} />
+      <img src={refiImage} loading="lazy" />
     </section>
   );
 };
