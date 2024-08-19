@@ -5,9 +5,7 @@ on:
     branches:
       - develop
   schedule:
-    - cron: '0 8 * * *'
-    - cron: '0 16 * * *'
-    - cron: '0 00 * * *'
+    - cron: '0 * * * *'
 
 jobs:
   build-and-deploy:
@@ -38,6 +36,9 @@ jobs:
 
       - name: Copy CNAME file
         run: npx cpx 'CNAME' build/
+
+      - name: Copy 404.html file
+        run: npx cpx '404.html' build/
 
       - name: Deploy to GitHub Pages
         env:
