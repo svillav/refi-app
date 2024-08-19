@@ -2,21 +2,6 @@
   "media_url": "/media/",
   "eventos": [
     {
-      "imagen_home": "/media/imagenes_eventos/home/2024/08/FOLKLORE-A-LA-CACEROLA.jpeg",
-      "nombre": "FOLKLORE A LA CACEROLA",
-      "unica_fecha": true,
-      "desde_fecha": "18/08/2024, 20:30",
-      "moneda": null,
-      "entradas_online_desde": "0.00",
-      "lugar": "REFI, Rosario, Santa Fe",
-      "lugar_responsive": "Rosario",
-      "activar_boton_personalizado": 0,
-      "texto_boton": "",
-      "color_boton_personalizado": "#28a745",
-      "url_externa": "",
-      "slug": "FOLKLORE-A-LA-CACEROLA"
-    },
-    {
       "imagen_home": "/media/imagenes_eventos/home/2024/08/CINE_3.jpeg",
       "nombre": "GASTRONOMIA VINO Y CINE",
       "unica_fecha": false,
@@ -75,6 +60,21 @@
       "color_boton_personalizado": "#28a745",
       "url_externa": "",
       "slug": "STREET-SAMPLE-VOL-IV"
+    },
+    {
+      "imagen_home": "/media/imagenes_eventos/home/2024/08/FOLKLORE-A-LA-CACEROLA_xSLaAWN.jpeg",
+      "nombre": "FOLKLORE A LA CACEROLA",
+      "unica_fecha": true,
+      "desde_fecha": "25/08/2024, 20:30",
+      "moneda": null,
+      "entradas_online_desde": "0.00",
+      "lugar": "REFI, Rosario, Santa Fe",
+      "lugar_responsive": "Rosario",
+      "activar_boton_personalizado": 0,
+      "texto_boton": "",
+      "color_boton_personalizado": "#28a745",
+      "url_externa": "",
+      "slug": "FOLKLORE-A-LA-CACEROLA"
     },
     {
       "imagen_home": "/media/imagenes_eventos/home/2024/07/mala.jpeg",
