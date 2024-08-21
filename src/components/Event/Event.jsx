@@ -114,7 +114,7 @@ const Event = ({
                 onClick={handleCopyLink}
               >
                 {copied ? 
-                  'Copiado :)' : 
+                  ':)' : 
                   <FontAwesomeIcon icon={faCopy} />
                 }
               </button>
