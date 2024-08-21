@@ -103,18 +103,18 @@ const Event = ({
               <p>{formatearPrecio(price)}</p>
             </div>
             <div className="buttons">
-              <button type="button" className="boton-compra btn btn-success">
-                <a href={formatearSlug(ticketUrl)}>
+              <a href={formatearSlug(ticketUrl)}>
+                <button type="button" className="boton-compra btn btn-success">
                   <span>{ticketMessage}</span>
-                </a>
-              </button>
+                </button>
+              </a>
               <button
                 type="button"
                 className="btn btn-dark boton-copia"
                 onClick={handleCopyLink}
               >
-                {copied ? 
-                  ':)' : 
+                {copied ?
+                  ':)' :
                   <FontAwesomeIcon icon={faCopy} />
                 }
               </button>
