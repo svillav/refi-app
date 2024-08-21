@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import './EventsContainer.scss';
 import Event from '../Event/Event';
 import eventosData from '../../eventos.json';
@@ -11,6 +11,20 @@ const images = require.context('../assets/eventos/', false, /\.(jpeg|jpg)$/);
 
 const EventsContainer = () => {
   const [searchTerm, setSearchTerm] = useState('');
+
+  useEffect(() => {
+    const handleAnchorRedirect = () => {
+      const slug = window.location.hash.split('/').pop();
+      const eventElement = document.getElementById(slug);
+            
+      if (eventElement) {
+        eventElement.classList.add('event-highlight');
+        eventElement.scrollIntoView({ behavior: 'smooth' });
+      }
+    };
+
+    handleAnchorRedirect();
+  }, []);
 
   const eventsArray = eventosData.eventos.filter(event =>
     event.nombre.toLowerCase().includes(searchTerm.toLowerCase())
@@ -43,7 +57,7 @@ const EventsContainer = () => {
                   location={event.lugar}
                   price={event.entradas_online_desde}
                   ticketUrl={event.slug}
-                  ticketMessage="CONSEGUIR ENTRADAS"
+                  ticketMessage="ENTRADAS"
                   id={event.slug}
                 />
               ))
