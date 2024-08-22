@@ -26,6 +26,7 @@ const Event = ({
   };
 
   const handleCopyLink = () => {
+    event.stopPropagation();
     const link = `${window.location.origin}/#/agenda/#/${id}`;
     navigator.clipboard.writeText(link).then(() => {
       setCopied(true);
@@ -72,6 +73,7 @@ const Event = ({
       data-target={`#${collapseId}`}
       aria-expanded="false"
       aria-controls={collapseId}
+      onClick={handleInfoClick}
     >
       <div className="event-card"
         type="text"
@@ -114,7 +116,7 @@ const Event = ({
                 onClick={handleCopyLink}
               >
                 {copied ?
-                  ':)' :
+                  'copiado' :
                   <FontAwesomeIcon icon={faCopy} />
                 }
               </button>
@@ -122,9 +124,9 @@ const Event = ({
           </div>
         </div>
       </div>
-      <div className="ver-info" onClick={handleInfoClick}>
+      <div className="ver-info">
         <div>
-          + INFO
+          {'+ INFO'}
         </div>
       </div>
     </div>
