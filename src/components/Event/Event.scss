@@ -63,14 +63,14 @@
       a {
         text-decoration: none;
         color: white;
-        
+
         .boton-compra {
           font-weight: bold;
           font-family: "Merriweather Sans", sans-serif;
           margin: 0.5rem 0;
           height: 2.5rem;
           width: 8rem;
-  
+
           svg {
             width: 1.2rem;
           }
@@ -114,11 +114,17 @@
 
   .collapsing,
   .collapse.show {
+    display: flex;
+    justify-content: center;
     background: rgb(0, 0, 0);
     width: 260px;
     z-index: 1;
   }
 
+  .collapse.show {
+    align-items: center;
+    height: 100%;
+  }
 }
 
 .ver-info {
