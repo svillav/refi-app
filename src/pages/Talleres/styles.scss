@@ -1,0 +1,31 @@
+.talleres-section {
+  text-align: center;
+  padding: 40px 0;
+
+  .section-title {
+    font-size: 2rem;
+    font-family: "Dela Gothic One", sans-serif;
+    text-transform: uppercase;
+  }
+
+  .input-group {
+    width: 90%;
+    max-width: 800px;
+    margin: 1.5rem auto;
+  }
+
+  h3 {
+    font-size: 1rem;
+    font-family: "Montserrat", sans-serif;
+  }
+
+  .talleres-list {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: auto;
+    gap: 20px;
+    font-family: "Dela Gothic One", sans-serif;
+    margin-top: 2rem;
+  }
+}

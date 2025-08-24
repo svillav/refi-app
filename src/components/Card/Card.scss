@@ -1,0 +1,119 @@
+.card-section {
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  margin: 0 auto;
+  width: 100%;
+  min-width: 30rem;
+  max-width: 60rem;
+  overflow: hidden;
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  font-family: "Montserrat", sans-serif;
+}
+
+.card-header {
+  display: flex;
+  align-items: center;
+  padding: 15px;
+  transition: background-color 0.3s ease;
+  background-color: #ffffff;
+}
+
+.card-name {
+  flex: 1;
+  margin: 0 15px;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.card-arrow {
+  font-size: 1.2rem;
+  color: #666;
+  transition: transform 0.3s ease;
+}
+
+.talleres-card-details {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 1rem;
+  border-top: 1px solid #eee;
+  
+  .card-header {
+    background-color: #ffffff;
+  }
+
+  .card-image {
+    margin: 1rem;
+    width: 50%;
+    height: 20rem;
+    background-size: cover;
+    background-position: center;
+    border-radius: 8px;
+  }
+
+  .card-info {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 50%;
+
+    .card-title {
+      font-family: "Dela Gothic One", sans-serif;
+      font-size: 1.2rem;
+    }
+
+    .card-description {
+      font-style: italic;
+      text-align: justify;
+      margin: 0 1rem 1rem;
+    }
+
+    .info-item {
+      margin: 0.5rem;
+      font-family: "Montserrat", sans-serif;
+      font-size: 1rem;
+      line-height: 1.5;
+      white-space: pre-wrap;
+    }
+
+    .icon-container {
+      display: flex;
+      align-items: center;
+
+      a {
+        color: rgb(0, 0, 104);
+      }
+      
+      .icon {
+        width: 1.5rem;
+        margin: 0.5rem;
+      }
+    }
+
+    .date {
+      text-align: justify;
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .card-section {
+    width: 90%;
+    min-width: 0;
+  }
+
+  .card-header {
+    flex-direction: column;
+    margin: 0;
+    padding: 0 !important;
+
+    .card-image {
+      width: 100%;
+    }
+
+    .card-info {
+      width: 100%;
+    }
+  }
+}

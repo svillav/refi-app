@@ -49,11 +49,11 @@ const Header = () => {
           <Collapse in={open}>
             <div id="navbarNav" className="collapse navbar-collapse">
               <Nav className="ml-auto">
-                <Nav.Link as={Link} to="/" className="nav-link text-center">Home</Nav.Link>
+                <Nav.Link as={Link} to="/" className="nav-link text-center">Inicio</Nav.Link>
                 <Nav.Link as={Link} to="/agenda" className="nav-link text-center">Agenda</Nav.Link>
                 {/* <Nav.Link as={Link} to="/refi-cafe" className="nav-link text-center">Refi Café</Nav.Link>
-                <Nav.Link as={Link} to="/tienda" className="nav-link text-center">Tienda</Nav.Link>
-                <Nav.Link as={Link} to="/cursos" className="nav-link text-center">Cursos</Nav.Link> */}
+                <Nav.Link as={Link} to="/tienda" className="nav-link text-center">Tienda</Nav.Link> */}
+                <Nav.Link as={Link} to="/talleres" className="nav-link text-center">Talleres</Nav.Link>
                 <Nav.Link as={Link} to="/comunidad" className="nav-link text-center">Comunidad</Nav.Link>
                 {/* <Nav.Link as={Link} to="/galeria" className="nav-link text-center">Galería</Nav.Link> */}
                 {/* <Nav.Link as={Link} to="/como-es-refi" className="nav-link text-center">Cómo es Refi</Nav.Link> */}

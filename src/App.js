@@ -8,11 +8,11 @@ import Footer from './components/Footer/Footer';
 
 import Home from './pages/Home';
 import Agenda from './pages/Agenda';
-import RefiCafe from './pages/RefiCafe';
-import Tienda from './pages/Tienda';
-import Cursos from './pages/Cursos';
+// import RefiCafe from './pages/RefiCafe';
+// import Tienda from './pages/Tienda';
+import Talleres from './pages/Talleres';
 import Comunidad from './pages/Comunidad';
-import ComoEsRefi from './pages/ComoEsRefi';
+// import ComoEsRefi from './pages/ComoEsRefi';
 
 import ScrollToTop from './scrollToTop';
 
@@ -25,8 +25,8 @@ function App() {
         <Route exact path="/" element={<Home />} />
         <Route path="/agenda" element={<Agenda />} />
         {/* <Route path="/refi-cafe" element={<RefiCafe />} /> */}
-        {/* <Route path="/tienda" element={<Tienda />} />
-        <Route path="/cursos" element={<Cursos />} /> */}
+        {/* <Route path="/tienda" element={<Tienda />} />*/}
+        <Route path="/talleres" element={<Talleres />} /> 
         <Route path="/comunidad" element={<Comunidad />} />
         {/* <Route path="/como-es-refi" element={<ComoEsRefi />} /> */}
       </Routes>
