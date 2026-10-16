@@ -28,6 +28,7 @@ function App() {
         {/* <Route path="/tienda" element={<Tienda />} />*/}
         <Route path="/talleres" element={<Talleres />} /> 
         <Route path="/comunidad" element={<Comunidad />} />
+        <Route path="/quienes-somos" element={<Comunidad />} />
         {/* <Route path="/como-es-refi" element={<ComoEsRefi />} /> */}
       </Routes>
       <ToUpButton />

@@ -1,0 +1,289 @@
+.home-carousel-section {
+  position: relative;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 0.5rem 0 1.5rem;
+  background-color: #000000;
+  overflow: hidden;
+  user-select: none;
+
+  // Atmospheric ambient glow behind the stage
+  .carousel-ambient-glow {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 640px;
+    height: 460px;
+    background: radial-gradient(
+      ellipse at 50% 50%,
+      rgba(255, 255, 255, 0.04) 0%,
+      rgba(0, 0, 0, 0.5) 50%,
+      transparent 75%
+    );
+    pointer-events: none;
+    z-index: 1;
+    filter: blur(25px);
+  }
+
+  // 3D Perspective Stage
+  .carousel-stage {
+    position: relative;
+    width: 100%;
+    max-width: 1200px;
+    height: 520px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    perspective: 1200px;
+    transform-style: preserve-3d;
+    z-index: 2;
+  }
+
+  .carousel-card {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 350px;
+    height: 460px;
+    max-width: 48vw;
+    max-height: 72vh;
+    backface-visibility: hidden;
+    -webkit-backface-visibility: hidden;
+    transform-style: preserve-3d;
+    transition: transform 0.55s cubic-bezier(0.22, 1, 0.36, 1),
+      opacity 0.55s cubic-bezier(0.22, 1, 0.36, 1),
+      filter 0.55s ease;
+    will-change: transform, opacity;
+
+    .card-inner {
+      position: relative;
+      width: 100%;
+      height: 100%;
+      border-radius: 14px;
+      overflow: hidden;
+      background-color: #050505;
+      border: none;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      box-shadow: 0 14px 30px rgba(0, 0, 0, 0.9);
+      transition: box-shadow 0.55s ease;
+      -webkit-mask-image: -webkit-radial-gradient(white, black);
+      transform: translateZ(0);
+      backface-visibility: hidden;
+      -webkit-backface-visibility: hidden;
+    }
+
+    .card-image {
+      width: 100%;
+      height: 100%;
+      display: block;
+      object-fit: contain;
+      background-color: #050505;
+      pointer-events: none;
+      // High quality rendering flags to ensure crisp text and sharp lines
+      image-rendering: -webkit-optimize-contrast;
+      image-rendering: high-quality;
+      transform: translateZ(0);
+      backface-visibility: hidden;
+      -webkit-backface-visibility: hidden;
+    }
+
+    // --- POSITIONS ---
+
+    // CENTER (ACTIVE) - High sharpness, no border, deep layered drop shadow
+    &.slide-center {
+      transform: translate3d(-50%, -50%, 0) scale(1) rotateY(0deg);
+      z-index: 10;
+      opacity: 1;
+
+      .card-inner {
+        box-shadow: 0 25px 55px rgba(0, 0, 0, 0.98), 0 10px 25px rgba(0, 0, 0, 0.85);
+      }
+    }
+
+    // PREV (LEFT PREVIEW)
+    &.slide-prev {
+      transform: translate3d(-146%, -50%, -70px) scale(0.83) rotateY(12deg);
+      z-index: 5;
+      opacity: 0.52;
+      filter: brightness(0.55) contrast(0.95);
+      cursor: pointer;
+
+      .card-inner {
+        box-shadow: 0 12px 28px rgba(0, 0, 0, 0.9);
+      }
+
+      &:hover {
+        opacity: 0.82;
+        filter: brightness(0.8);
+        transform: translate3d(-142%, -50%, -40px) scale(0.85) rotateY(8deg);
+      }
+    }
+
+    // NEXT (RIGHT PREVIEW)
+    &.slide-next {
+      transform: translate3d(46%, -50%, -70px) scale(0.83) rotateY(-12deg);
+      z-index: 5;
+      opacity: 0.52;
+      filter: brightness(0.55) contrast(0.95);
+      cursor: pointer;
+
+      .card-inner {
+        box-shadow: 0 12px 28px rgba(0, 0, 0, 0.9);
+      }
+
+      &:hover {
+        opacity: 0.82;
+        filter: brightness(0.8);
+        transform: translate3d(42%, -50%, -40px) scale(0.85) rotateY(-8deg);
+      }
+    }
+
+    // HIDDEN OUTSIDE: immediate teleport with no center sweep, fully invisible
+    &.slide-hidden-prev,
+    &.slide-hidden-next {
+      opacity: 0 !important;
+      visibility: hidden !important;
+      pointer-events: none !important;
+      transition: opacity 0.3s ease, visibility 0.3s ease !important;
+    }
+
+    &.slide-hidden-prev {
+      transform: translate3d(-250%, -50%, -200px) scale(0.6) !important;
+    }
+
+    &.slide-hidden-next {
+      transform: translate3d(150%, -50%, -200px) scale(0.6) !important;
+    }
+  }
+
+  // --- INDICATORS ---
+  .carousel-indicators {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 6px;
+    margin-top: 1rem;
+    z-index: 5;
+
+    .indicator-dot {
+      width: 8px;
+      height: 8px;
+      border-radius: 50%;
+      background-color: rgba(255, 255, 255, 0.3);
+      border: none;
+      padding: 0;
+      cursor: pointer;
+      transition: all 0.35s cubic-bezier(0.22, 1, 0.36, 1);
+
+      &:hover {
+        background-color: rgba(255, 255, 255, 0.7);
+      }
+
+      &.active {
+        width: 22px;
+        border-radius: 7px;
+        background-color: #ffffff;
+        box-shadow: 0 0 8px rgba(255, 255, 255, 0.6);
+      }
+    }
+  }
+
+  // --- RESPONSIVE MEDIA QUERIES ---
+
+  @media (max-width: 992px) {
+    .carousel-stage {
+      height: 480px;
+    }
+
+    .carousel-card {
+      width: 310px;
+      height: 410px;
+
+      &.slide-prev {
+        transform: translate3d(-142%, -50%, -60px) scale(0.83) rotateY(10deg);
+      }
+
+      &.slide-next {
+        transform: translate3d(42%, -50%, -60px) scale(0.83) rotateY(-10deg);
+      }
+    }
+  }
+
+  @media (max-width: 768px) {
+    padding: 0.35rem 0 1rem;
+
+    .carousel-ambient-glow {
+      width: 440px;
+      height: 320px;
+    }
+
+    .carousel-stage {
+      height: 440px;
+    }
+
+    .carousel-card {
+      width: 270px;
+      height: 360px;
+      max-width: 65vw;
+
+      &.slide-prev {
+        transform: translate3d(-130%, -50%, -45px) scale(0.82) rotateY(8deg);
+        opacity: 0.45;
+      }
+
+      &.slide-next {
+        transform: translate3d(30%, -50%, -45px) scale(0.82) rotateY(-8deg);
+        opacity: 0.45;
+      }
+    }
+  }
+
+  @media (max-width: 480px) {
+    padding: 0.2rem 0 0.8rem;
+
+    .carousel-stage {
+      height: 390px;
+    }
+
+    .carousel-card {
+      width: 240px;
+      height: 320px;
+      max-width: 70vw;
+
+      .card-inner {
+        border-radius: 12px;
+      }
+
+      &.slide-prev {
+        transform: translate3d(-124%, -50%, -35px) scale(0.81) rotateY(6deg);
+        opacity: 0.4;
+      }
+
+      &.slide-next {
+        transform: translate3d(24%, -50%, -35px) scale(0.81) rotateY(-6deg);
+        opacity: 0.4;
+      }
+    }
+
+    .carousel-indicators {
+      margin-top: 0.5rem;
+      gap: 5px;
+
+      .indicator-dot {
+        width: 6px;
+        height: 6px;
+
+        &.active {
+          width: 18px;
+        }
+      }
+    }
+  }
+}

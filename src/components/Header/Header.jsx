@@ -54,7 +54,7 @@ const Header = () => {
                 {/* <Nav.Link as={Link} to="/refi-cafe" className="nav-link text-center">Refi Café</Nav.Link>
                 <Nav.Link as={Link} to="/tienda" className="nav-link text-center">Tienda</Nav.Link> */}
                 <Nav.Link as={Link} to="/talleres" className="nav-link text-center">Talleres</Nav.Link>
-                <Nav.Link as={Link} to="/comunidad" className="nav-link text-center">Comunidad</Nav.Link>
+                <Nav.Link as={Link} to="/quienes-somos" className="nav-link text-center">¿Quiénes somos?</Nav.Link>
                 {/* <Nav.Link as={Link} to="/galeria" className="nav-link text-center">Galería</Nav.Link> */}
                 {/* <Nav.Link as={Link} to="/como-es-refi" className="nav-link text-center">Cómo es Refi</Nav.Link> */}
               </Nav>
