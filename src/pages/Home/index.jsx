@@ -2,7 +2,6 @@ import React from 'react';
 import './styles.scss';
 import Separator from '../../components/Separator/Separator';
 import Seccion from '../../components/Seccion/Seccion';
-import HomeCarousel from '../../components/HomeCarousel/HomeCarousel';
 
 import agendaBg from "./assets/bg_agenda.jpg";
 import comunidadBg from "./assets/bg_comunidad.jpg";
@@ -11,7 +10,6 @@ import talleresBg from "./assets/bg_talleres.jpg";
 const Home = () => {
   return (
     <div>
-      <HomeCarousel />
       <Separator />
       <Seccion name="Agenda" href="agenda" backgroundImage={agendaBg} />
       {/* <Seccion name="Refi Café" href="refi-cafe" backgroundImage={img} />

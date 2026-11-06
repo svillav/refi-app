@@ -6,6 +6,7 @@ module.exports = {
   output: {
     path: path.resolve(__dirname, 'build'),
     filename: 'bundle.js',
+    publicPath: '/',
   },
   module: {
     rules: [
@@ -84,6 +85,7 @@ module.exports = {
     compress: true,
     port: 9000,
     hot: true,
+    historyApiFallback: true,
   },
   mode: 'production',
   performance: {
